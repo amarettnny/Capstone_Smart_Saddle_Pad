@@ -1,2 +1,2 @@
-idf_component_register(SRCS "smart_saddle_pad.c"
+idf_component_register(SRCS "main.c"
                     INCLUDE_DIRS ".")
