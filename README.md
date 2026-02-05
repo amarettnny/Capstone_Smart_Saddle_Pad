@@ -28,4 +28,4 @@
       ```
       get_idf
       ```
-    - Then you will be able to do ```idf.py``` commands within your terminal.
+    - Then you will be able to do ```idf.py``` commands within your terminal. See the official ESP32 Guide for more commands: https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/linux-macos-start-project.html 
