@@ -421,6 +421,10 @@
     [
       "d5cdf697-4d49-4f45-b387-9e9064a8239b",
       "stm32"
+    ],
+    [
+      "309a6c57-e91b-42c8-8b29-fcecc8b43c4f",
+      "PressureSensor"
     ]
   ],
   "text_variables": {}

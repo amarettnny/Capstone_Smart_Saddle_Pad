@@ -2864,6 +2864,28 @@
 			)
 		)
 	)
+	(global_label "Sensor_to_STM32"
+		(shape input)
+		(at 137.16 133.35 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e1c80c09-c5b3-41f4-a867-d1e6374b6d87")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.16 152.603 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "NRST"
 		(shape input)
 		(at 127 107.95 180)
