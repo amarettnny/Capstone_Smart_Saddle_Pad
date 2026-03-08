@@ -1136,7 +1136,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b10dd99-4941-476d-8bd5-bd90598984d3")
-		(property "Reference" "ExternalSensor"
+		(property "Reference" "ExternalSensor1"
 			(at 130.81 118.1099 0)
 			(effects
 				(font
@@ -1190,7 +1190,7 @@
 		(instances
 			(project "PressureSensor"
 				(path "/6b4e6891-da04-4823-bd63-d61c29aaa975"
-					(reference "ExternalSensor")
+					(reference "ExternalSensor1")
 					(unit 1)
 				)
 			)
@@ -1360,7 +1360,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4cb9beed-7a1e-4264-a51c-c9f3d4f2f261")
-		(property "Reference" "U"
+		(property "Reference" "U1"
 			(at 130.81 77.47 0)
 			(effects
 				(font
@@ -1448,7 +1448,7 @@
 		(instances
 			(project "PressureSensor"
 				(path "/6b4e6891-da04-4823-bd63-d61c29aaa975"
-					(reference "U")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -1533,6 +1533,112 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:MCP6004")
+		(at 129.54 68.58 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c4882a6-b750-4c32-9504-8c3fe1a1f4e5")
+		(property "Reference" "U1"
+			(at 128.27 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MCP6004"
+			(at 128.27 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+			(at 130.81 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
+			(at 129.54 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "02436423-c932-4520-810d-de4c73734b92")
+		)
+		(pin "11"
+			(uuid "24d6ea93-b548-4cee-a627-07e0fbae31fd")
+		)
+		(pin "6"
+			(uuid "198410c7-86a0-4b88-8003-65e665c4179c")
+		)
+		(pin "5"
+			(uuid "d075a01d-1d8c-4ce4-a9be-bbc0e3bff1c3")
+		)
+		(pin "1"
+			(uuid "cb1c46c1-b297-4f5e-8a06-7504f61744ec")
+		)
+		(pin "7"
+			(uuid "5772f829-9379-4d2b-98ee-5f47b1714aea")
+		)
+		(pin "9"
+			(uuid "6d3319f5-dd3d-4e54-ae35-d17a1126ed94")
+		)
+		(pin "4"
+			(uuid "05f52a48-a704-4832-8a50-91d12027b75a")
+		)
+		(pin "8"
+			(uuid "b94b2d05-4c2f-4b1a-b64c-1fcf421f488a")
+		)
+		(pin "10"
+			(uuid "dc9fea1f-09e0-4642-b34a-829d26475d2b")
+		)
+		(pin "12"
+			(uuid "37db4479-d3ec-4612-aba9-5c0bf4b3678e")
+		)
+		(pin "3"
+			(uuid "51760421-ded4-4116-953f-50791beb234a")
+		)
+		(pin "2"
+			(uuid "77e852a6-144e-4770-84d1-4fe44e2fe89f")
+		)
+		(pin "14"
+			(uuid "0a8a948b-959b-41c8-b86f-6f02d038abb3")
+		)
+		(instances
+			(project ""
+				(path "/6b4e6891-da04-4823-bd63-d61c29aaa975"
+					(reference "U1")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 134.62 113.03 90)
 		(unit 1)
@@ -1542,7 +1648,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b28b1a85-1fd8-4783-9b36-00521ec3184a")
-		(property "Reference" "C"
+		(property "Reference" "C1"
 			(at 134.62 105.41 90)
 			(effects
 				(font
@@ -1594,7 +1700,7 @@
 		(instances
 			(project "PressureSensor"
 				(path "/6b4e6891-da04-4823-bd63-d61c29aaa975"
-					(reference "C")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -1689,7 +1795,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9e5e1fc-1453-4bb9-9538-2d28df65ff0a")
-		(property "Reference" "R3(Potentiometer)"
+		(property "Reference" "R3(Potentiometer)1"
 			(at 134.62 96.52 90)
 			(effects
 				(font
@@ -1741,7 +1847,7 @@
 		(instances
 			(project "PressureSensor"
 				(path "/6b4e6891-da04-4823-bd63-d61c29aaa975"
-					(reference "R3(Potentiometer)")
+					(reference "R3(Potentiometer)1")
 					(unit 1)
 				)
 			)
