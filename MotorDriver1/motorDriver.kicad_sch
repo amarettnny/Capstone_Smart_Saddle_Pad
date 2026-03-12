@@ -2584,7 +2584,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "NMOSGDS_D2PAK_INF"
+		(property "Footprint" "footprintLib:NMOSGDS_D2PAK_INF"
 			(at 115.57 62.23 0)
 			(effects
 				(font
@@ -2876,7 +2876,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "NMOSGDS_D2PAK_INF"
+		(property "Footprint" "footprintLib:NMOSGDS_D2PAK_INF"
 			(at 72.39 62.23 0)
 			(effects
 				(font
@@ -3092,7 +3092,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "NMOSGDS_D2PAK_INF"
+		(property "Footprint" "footprintLib:NMOSGDS_D2PAK_INF"
 			(at 121.92 144.78 0)
 			(effects
 				(font
@@ -3727,7 +3727,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "NMOSGDS_D2PAK_INF"
+		(property "Footprint" "footprintLib:NMOSGDS_D2PAK_INF"
 			(at 78.74 144.78 0)
 			(effects
 				(font

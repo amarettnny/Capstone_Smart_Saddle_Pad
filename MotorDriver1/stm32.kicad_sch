@@ -6206,7 +6206,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5 pF"
+		(property "Value" "7.5 pF, 0.1%"
 			(at 26.67 97.7899 90)
 			(effects
 				(font
@@ -6417,7 +6417,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6 pF"
+		(property "Value" "8 pF"
 			(at 25.4 130.8099 90)
 			(effects
 				(font
@@ -7165,7 +7165,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5 pF"
+		(property "Value" "7.5 pF, 0.1%"
 			(at 26.67 80.0099 90)
 			(effects
 				(font
@@ -7651,7 +7651,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "6 pF"
+		(property "Value" "8 pF"
 			(at 25.4 113.0299 90)
 			(effects
 				(font
@@ -8837,7 +8837,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "footprintLib:XTAL_ECS-.327-12.5-12R-TR"
+		(property "Footprint" "footprintLib:ECS-480-8-30-JGN-TR"
 			(at 34.29 120.65 0)
 			(effects
 				(font
@@ -8846,7 +8846,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~CS08231-48M"
+		(property "Datasheet" "ECS-480-8-30-JGN-TR"
 			(at 34.29 120.65 0)
 			(effects
 				(font
@@ -8855,7 +8855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Two pin crystal, CS08231-48M"
+		(property "Description" "Two pin crystal, ECS-480-8-30-JGN-TR"
 			(at 34.29 120.65 0)
 			(effects
 				(font
@@ -8913,7 +8913,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "footprintLib:XTAL_ECS-.327-12.5-12R-TR"
+		(property "Footprint" "footprintLib:MU00527-32.768K"
 			(at 35.56 87.63 0)
 			(effects
 				(font
@@ -8931,7 +8931,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Two pin crystal, ECS-.327-12.5-12R-TR"
+		(property "Description" "Two pin crystal, MU00527-32.768K"
 			(at 35.56 87.63 0)
 			(effects
 				(font
