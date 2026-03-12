@@ -4559,7 +4559,7 @@
 			)
 		)
 	)
-	(global_label "Motor1_PWM"
+	(global_label "Motor3_PWM"
 		(shape output)
 		(at 172.72 82.55 0)
 		(fields_autoplaced yes)
@@ -4779,7 +4779,7 @@
 			)
 		)
 	)
-	(global_label "Motor3_PWM"
+	(global_label "Motor1_PWM"
 		(shape output)
 		(at 142.24 64.77 90)
 		(fields_autoplaced yes)
