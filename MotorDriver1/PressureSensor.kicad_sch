@@ -1769,7 +1769,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b3d6afd-0283-463a-bd50-c89094905e4e")
-		(property "Reference" "R2_SensorA1"
+		(property "Reference" "R19"
 			(at 68.58 100.3299 0)
 			(effects
 				(font
@@ -1787,7 +1787,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 64.262 101.6 90)
 			(effects
 				(font
@@ -1823,7 +1823,7 @@
 		(instances
 			(project "MotorDriver1"
 				(path "/79cc9cfe-04d6-4d00-aa84-feae66cf8c45/309a6c57-e91b-42c8-8b29-fcecc8b43c4f"
-					(reference "R2_SensorA1")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -1904,7 +1904,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "520eeac6-80d8-46b5-a4a8-627d67ea76f8")
-		(property "Reference" "R1_SensorA1"
+		(property "Reference" "R17"
 			(at 57.15 86.36 90)
 			(effects
 				(font
@@ -1920,7 +1920,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 57.15 94.488 90)
 			(effects
 				(font
@@ -1956,7 +1956,7 @@
 		(instances
 			(project "MotorDriver1"
 				(path "/79cc9cfe-04d6-4d00-aa84-feae66cf8c45/309a6c57-e91b-42c8-8b29-fcecc8b43c4f"
-					(reference "R1_SensorA1")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -2103,7 +2103,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "920810e0-cff4-40ae-8378-a462e23c0f33")
-		(property "Reference" "R1_SensorD1"
+		(property "Reference" "R16"
 			(at 54.61 147.32 90)
 			(effects
 				(font
@@ -2119,7 +2119,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 54.61 155.448 90)
 			(effects
 				(font
@@ -2155,7 +2155,7 @@
 		(instances
 			(project "MotorDriver1"
 				(path "/79cc9cfe-04d6-4d00-aa84-feae66cf8c45/309a6c57-e91b-42c8-8b29-fcecc8b43c4f"
-					(reference "R1_SensorD1")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -2171,7 +2171,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6360b51-a1bb-4b75-9144-d5db30016e37")
-		(property "Reference" "IC3"
+		(property "Reference" "IC2"
 			(at 180.34 99.06 0)
 			(effects
 				(font
@@ -2187,7 +2187,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprintLib:DIP781W56P254L1918H533Q14N"
 			(at 194.31 201.6 0)
 			(effects
 				(font
@@ -2311,7 +2311,7 @@
 		(instances
 			(project ""
 				(path "/79cc9cfe-04d6-4d00-aa84-feae66cf8c45/309a6c57-e91b-42c8-8b29-fcecc8b43c4f"
-					(reference "IC3")
+					(reference "IC2")
 					(unit 1)
 				)
 			)
@@ -2394,7 +2394,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0b2769b-1d7b-46dc-a099-ddb07839ddc9")
-		(property "Reference" "R2_SensorD1"
+		(property "Reference" "R18"
 			(at 66.04 161.2899 0)
 			(effects
 				(font
@@ -2412,7 +2412,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 61.722 162.56 90)
 			(effects
 				(font
@@ -2448,7 +2448,7 @@
 		(instances
 			(project "MotorDriver1"
 				(path "/79cc9cfe-04d6-4d00-aa84-feae66cf8c45/309a6c57-e91b-42c8-8b29-fcecc8b43c4f"
-					(reference "R2_SensorD1")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -2482,7 +2482,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 59.69 129.54 0)
 			(effects
 				(font
@@ -2534,7 +2534,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0171b6a-8be1-4840-a2ec-2217a6feef3c")
-		(property "Reference" "C_SensorA1"
+		(property "Reference" "C_A1"
 			(at 121.92 105.4099 0)
 			(effects
 				(font
@@ -2588,7 +2588,7 @@
 		(instances
 			(project "MotorDriver1"
 				(path "/79cc9cfe-04d6-4d00-aa84-feae66cf8c45/309a6c57-e91b-42c8-8b29-fcecc8b43c4f"
-					(reference "C_SensorA1")
+					(reference "C_A1")
 					(unit 1)
 				)
 			)
@@ -2604,7 +2604,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dddcb961-ec05-450a-97a4-058b92ad2523")
-		(property "Reference" "C_SensorD1"
+		(property "Reference" "C_D1"
 			(at 257.81 105.4099 0)
 			(effects
 				(font
@@ -2658,7 +2658,7 @@
 		(instances
 			(project "MotorDriver1"
 				(path "/79cc9cfe-04d6-4d00-aa84-feae66cf8c45/309a6c57-e91b-42c8-8b29-fcecc8b43c4f"
-					(reference "C_SensorD1")
+					(reference "C_D1")
 					(unit 1)
 				)
 			)
@@ -2692,7 +2692,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 58.42 68.58 0)
 			(effects
 				(font
@@ -2760,7 +2760,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprintLib:TS53YJ105MR10"
 			(at 242.57 193.98 0)
 			(effects
 				(font
@@ -2883,7 +2883,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprintLib:TS53YJ105MR10"
 			(at 153.67 190.17 0)
 			(effects
 				(font
