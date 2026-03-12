@@ -1627,7 +1627,7 @@
 			)
 		)
 	)
-	(global_label "FDCAN_STM"
+	(global_label "FDCAN_RX_STM"
 		(shape output)
 		(at 71.12 41.91 180)
 		(fields_autoplaced yes)
@@ -1639,7 +1639,7 @@
 		)
 		(uuid "dc69afe3-28c0-46ed-bbf4-01d05f21fc14")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.491 41.91 0)
+			(at 54.0439 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2425,21 +2425,21 @@
 		(fields_autoplaced yes)
 		(uuid "c47dac59-1132-4365-9e2a-dec5434dacda")
 		(property "Reference" "U5"
-			(at 152.7967 31.75 0)
+			(at 158.0581 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "MCP2562FDT-H/SN"
-			(at 152.7967 34.29 0)
+			(at 158.0581 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
