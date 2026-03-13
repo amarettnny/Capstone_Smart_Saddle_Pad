@@ -271,173 +271,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:1N4001"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1N4001"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*DO?41*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1N4001_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1N4001_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "pcb:IRLZ44NSTRLPBF"
 			(pin_names
 				(offset 0.254)
@@ -1014,6 +847,246 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "pcb:SM5819L2-TP"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 12.7 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "SM5819L2-TP"
+				(at 12.7 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "footprintLib:SM5819L2TP"
+				(at 12.7 -93.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mccsemi.com/pdf/Products/SM5819L2(DFN1006-2).pdf"
+				(at 12.7 -193.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode 40 V 1A Surface Mount 2-DFN1006"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.55"
+				(at 12.7 -393.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "833-SM5819L2-TP"
+				(at 12.7 -493.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Micro-Commercial-Components-MCC/SM5819L2-TP?qs=y6ZabgHbY%252BxeWBCRPmsJAA%3D%3D"
+				(at 12.7 -593.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "MCC"
+				(at 12.7 -693.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SM5819L2-TP"
+				(at 12.7 -793.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "SM5819L2-TP_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.604 -1.524) (xy 6.604 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 8.636 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 12.7 2.54) (xy 12.7 -2.54) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 6.604 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.636 1.524) (xy 8.636 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 0) (xy 15.24 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1229,7 +1302,7 @@
 	)
 	(text "Deflate Motor"
 		(exclude_from_sim no)
-		(at 127.762 49.53 0)
+		(at 127.762 51.308 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1239,7 +1312,7 @@
 	)
 	(text "Inflate Motor"
 		(exclude_from_sim no)
-		(at 85.344 50.038 0)
+		(at 85.344 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1339,28 +1412,22 @@
 		(uuid "5f60cdf8-a105-4997-9d49-d165b90dce1f")
 	)
 	(junction
-		(at 119.38 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6465df9e-ebb4-496d-a9cc-01d8a806d3ec")
-	)
-	(junction
-		(at 113.03 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "adfe1bbb-f6d0-4358-9cce-6c8afd4874a6")
-	)
-	(junction
 		(at 67.31 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "afe30d19-acf4-4b62-b662-5d2a94885186")
 	)
 	(junction
-		(at 124.46 29.21)
+		(at 113.03 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d117f268-34e8-4301-80db-d1f9b319d432")
+		(uuid "b7af0741-9f14-4c7a-9fb7-09243df7f911")
+	)
+	(junction
+		(at 119.38 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1546234-c6ad-4b65-9f3e-5cd68e0e19ce")
 	)
 	(junction
 		(at 130.81 107.95)
@@ -1380,16 +1447,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 107.95) (xy 119.38 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "040aec7a-4fbe-4208-8d7a-e5662d618b24")
-	)
-	(wire
-		(pts
 			(xy 113.03 55.88) (xy 123.19 55.88)
 		)
 		(stroke
@@ -1400,6 +1457,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 107.95) (xy 76.2 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0988a02a-eb1c-474d-a0b7-9be9fa2795fe")
+	)
+	(wire
+		(pts
 			(xy 73.66 144.78) (xy 73.66 148.59)
 		)
 		(stroke
@@ -1407,16 +1474,6 @@
 			(type default)
 		)
 		(uuid "0caad22d-8242-4e0d-beae-e2df20e99f2f")
-	)
-	(wire
-		(pts
-			(xy 113.03 29.21) (xy 113.03 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "117c4629-1f03-4a04-9314-c1ad5f924ff8")
 	)
 	(wire
 		(pts
@@ -1460,16 +1517,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 130.81) (xy 76.2 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31687708-19a5-4679-81db-7284986e0f60")
-	)
-	(wire
-		(pts
 			(xy 39.37 43.18) (xy 46.99 43.18)
 		)
 		(stroke
@@ -1500,13 +1547,33 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 29.21) (xy 135.89 29.21)
+			(xy 69.85 29.21) (xy 113.03 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "45dcb044-1cde-4999-96f9-07a1d5989ec5")
+	)
+	(wire
+		(pts
+			(xy 113.03 54.61) (xy 113.03 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "493f8476-3af6-4d25-9ddc-86ad10acd5b3")
+	)
+	(wire
+		(pts
+			(xy 69.85 29.21) (xy 69.85 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b92fb93-7681-4ff3-b000-7527f594ae5a")
 	)
 	(wire
 		(pts
@@ -1580,16 +1647,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 107.95) (xy 119.38 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7413f863-dead-43c9-816d-32840e59970d")
-	)
-	(wire
-		(pts
 			(xy 67.31 62.23) (xy 72.39 62.23)
 		)
 		(stroke
@@ -1620,7 +1677,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 107.95) (xy 130.81 107.95)
+			(xy 76.2 107.95) (xy 119.38 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1647,6 +1704,16 @@
 			(type default)
 		)
 		(uuid "833d8691-a8d0-47cf-b78d-d9427f710e69")
+	)
+	(wire
+		(pts
+			(xy 113.03 29.21) (xy 113.03 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84c21c4d-3411-411b-8b16-0fa7eab49254")
 	)
 	(wire
 		(pts
@@ -1700,13 +1767,13 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 48.26) (xy 69.85 29.21)
+			(xy 119.38 135.89) (xy 119.38 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8eea913c-5fc7-4782-bf71-ff3e65d143e9")
+		(uuid "98be1591-62d0-4082-8afb-67a745191dfe")
 	)
 	(wire
 		(pts
@@ -1760,23 +1827,23 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 29.21) (xy 113.03 29.21)
+			(xy 76.2 135.89) (xy 76.2 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c48aed4e-4609-4a27-bda5-2f434f007d02")
+		(uuid "acdb3f6d-6c45-4cab-a4ab-604de58a24a7")
 	)
 	(wire
 		(pts
-			(xy 113.03 29.21) (xy 124.46 29.21)
+			(xy 119.38 107.95) (xy 119.38 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c62a47d6-cc17-4a00-a433-f586d7bb6d39")
+		(uuid "c5da067f-6e5e-41a8-9f9d-4d5e6d7be9ba")
 	)
 	(wire
 		(pts
@@ -1840,6 +1907,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 29.21) (xy 135.89 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e37f806e-e232-4837-8899-5b62ae84e1b7")
+	)
+	(wire
+		(pts
 			(xy 123.19 55.88) (xy 123.19 57.15)
 		)
 		(stroke
@@ -1898,15 +1975,15 @@
 		)
 		(uuid "fd42d2a9-19c3-4626-843e-c2455ef5c70b")
 	)
-	(label ""
-		(at 76.2 128.27 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 119.38 107.95) (xy 130.81 107.95)
 		)
-		(uuid "07469aa0-452f-427e-9cd4-6da2b6977fec")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff34043e-a635-4e51-974c-03489dbcdabe")
 	)
 	(label "Motor4+"
 		(at 45.72 125.73 0)
@@ -1927,6 +2004,16 @@
 			(justify left bottom)
 		)
 		(uuid "2068b630-8cae-4be2-9353-551c16bad934")
+	)
+	(label "Motor1+"
+		(at 69.85 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "247c7fce-08a6-48b8-b051-84f04702f3d0")
 	)
 	(label "Motor1-"
 		(at 80.01 55.88 0)
@@ -1949,7 +2036,7 @@
 		(uuid "2e32096a-77e1-4413-a97b-668141fb6b7a")
 	)
 	(label "Motor4+"
-		(at 119.38 128.27 0)
+		(at 119.38 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1959,7 +2046,7 @@
 		(uuid "3ed4e602-412a-40c8-a8c3-0735dee73a04")
 	)
 	(label "Motor3+"
-		(at 76.2 129.54 0)
+		(at 76.2 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1977,6 +2064,16 @@
 			(justify left bottom)
 		)
 		(uuid "660d4d18-6cc8-40d8-a8ae-e8eb227386c6")
+	)
+	(label "Motor2+"
+		(at 113.03 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "961a9993-14ba-4358-b233-65a545c4f7b6")
 	)
 	(label ""
 		(at 69.85 45.72 0)
@@ -2008,16 +2105,6 @@
 		)
 		(uuid "bcb077ec-b7d8-45fa-a956-7e5541270a8b")
 	)
-	(label "Motor1+"
-		(at 69.85 46.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c53b48d3-f4f3-400f-bd93-96542248d733")
-	)
 	(label "Motor3+"
 		(at 45.72 116.84 0)
 		(effects
@@ -2027,16 +2114,6 @@
 			(justify left bottom)
 		)
 		(uuid "d3df0dfc-e6d8-4ff5-88bc-c5e057e206e7")
-	)
-	(label "Motor2+"
-		(at 113.03 46.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d4a340b5-17dc-4251-bf1d-11b0fcf181a5")
 	)
 	(label "Motor2-"
 		(at 123.19 55.88 0)
@@ -2295,7 +2372,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10000"
+		(property "Value" "10k"
 			(at 69.85 71.1199 0)
 			(effects
 				(font
@@ -2557,6 +2634,128 @@
 		)
 	)
 	(symbol
+		(lib_id "pcb:SM5819L2-TP")
+		(at 113.03 36.83 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21c628bf-a8cc-4eb6-bed8-94836d03492c")
+		(property "Reference" "D2"
+			(at 116.84 45.7199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SM5819L2-TP"
+			(at 116.84 48.2599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprintLib:SDO_SM5819L2-TP_MCE"
+			(at 19.38 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/SM5819L2(DFN1006-2).pdf"
+			(at -80.62 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode 40 V 1A Surface Mount 2-DFN1006"
+			(at 113.03 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at -280.62 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "833-SM5819L2-TP"
+			(at -380.62 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Micro-Commercial-Components-MCC/SM5819L2-TP?qs=y6ZabgHbY%252BxeWBCRPmsJAA%3D%3D"
+			(at -480.62 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "MCC"
+			(at -580.62 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SM5819L2-TP"
+			(at -680.62 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26aeb8c6-021c-45b2-a0ef-76e450678d2b")
+		)
+		(pin "2"
+			(uuid "c6a2d74c-3d84-4950-8e5e-9d4eca26e404")
+		)
+		(instances
+			(project "MotorDriver1"
+				(path "/79cc9cfe-04d6-4d00-aa84-feae66cf8c45/bb18fbb4-ec68-4ac2-b714-52f61fe72a01"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "pcb:IRLZ44NSTRLPBF")
 		(at 115.57 62.23 0)
 		(unit 1)
@@ -2633,7 +2832,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 124.46 41.91 0)
+		(at 135.89 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2641,7 +2840,7 @@
 		(dnp no)
 		(uuid "25711550-2054-4a2b-861f-f53b4d32a260")
 		(property "Reference" "#PWR08"
-			(at 124.46 48.26 0)
+			(at 135.89 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2650,7 +2849,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 124.46 45.72 0)
+			(at 135.89 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2658,7 +2857,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 41.91 0)
+			(at 135.89 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2667,7 +2866,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 41.91 0)
+			(at 135.89 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2676,7 +2875,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 41.91 0)
+			(at 135.89 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2730,7 +2929,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 78.232 77.47 90)
 			(effects
 				(font
@@ -2797,7 +2996,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10000"
+		(property "Value" "10k"
 			(at 76.2 153.6699 0)
 			(effects
 				(font
@@ -3579,7 +3778,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10000"
+		(property "Value" "10k"
 			(at 119.38 153.6699 0)
 			(effects
 				(font
@@ -3840,100 +4039,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4001")
-		(at 69.85 52.07 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f3a0f86-4b81-4da6-9021-ee51a84b38cc")
-		(property "Reference" "D1"
-			(at 72.39 50.7999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Power_D"
-			(at 72.39 53.3399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
-			(at 69.85 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 69.85 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 69.85 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 69.85 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 69.85 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "585a7a30-3888-4902-9acc-ec835b2a9aca")
-		)
-		(pin "2"
-			(uuid "d6933044-fe66-4b71-9932-eb554d822e33")
-		)
-		(instances
-			(project "MotorDriver1"
-				(path "/79cc9cfe-04d6-4d00-aa84-feae66cf8c45/bb18fbb4-ec68-4ac2-b714-52f61fe72a01"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-			(project "motorDriver"
-				(path "/f40c456c-d083-4134-81e3-e86a9b252415"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 129.54 167.64 0)
 		(unit 1)
@@ -4075,94 +4180,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4001")
-		(at 119.38 134.62 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a23ce209-c370-4faa-84ba-a3a27f5cc88a")
-		(property "Reference" "D4"
-			(at 121.92 133.3499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Power_D"
-			(at 121.92 135.8899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
-			(at 119.38 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 119.38 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 119.38 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 119.38 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 119.38 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0fe66107-9c7d-4bea-b795-c73f1e42bee6")
-		)
-		(pin "2"
-			(uuid "f61b1629-fa25-494f-955e-4a2ea91ff09e")
-		)
-		(instances
-			(project "MotorDriver1"
-				(path "/79cc9cfe-04d6-4d00-aa84-feae66cf8c45/bb18fbb4-ec68-4ac2-b714-52f61fe72a01"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 86.36 160.02 0)
 		(unit 1)
@@ -4190,7 +4207,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 84.582 160.02 90)
 			(effects
 				(font
@@ -4233,6 +4250,128 @@
 		)
 	)
 	(symbol
+		(lib_id "pcb:SM5819L2-TP")
+		(at 69.85 38.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a773bd9f-694c-48f6-8dec-f98043b73c6c")
+		(property "Reference" "D1"
+			(at 73.66 46.9899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SM5819L2-TP"
+			(at 73.66 49.5299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprintLib:SDO_SM5819L2-TP_MCE"
+			(at -23.8 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/SM5819L2(DFN1006-2).pdf"
+			(at -123.8 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode 40 V 1A Surface Mount 2-DFN1006"
+			(at 69.85 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at -323.8 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "833-SM5819L2-TP"
+			(at -423.8 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Micro-Commercial-Components-MCC/SM5819L2-TP?qs=y6ZabgHbY%252BxeWBCRPmsJAA%3D%3D"
+			(at -523.8 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "MCC"
+			(at -623.8 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SM5819L2-TP"
+			(at -723.8 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30d5f178-9ba6-4c4c-8b5b-2da66286d593")
+		)
+		(pin "2"
+			(uuid "9252892d-637e-4eba-a3b9-94f4e73d6052")
+		)
+		(instances
+			(project ""
+				(path "/79cc9cfe-04d6-4d00-aa84-feae66cf8c45/bb18fbb4-ec68-4ac2-b714-52f61fe72a01"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 110.49 69.85 0)
 		(unit 1)
@@ -4251,7 +4390,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10000"
+		(property "Value" "10k"
 			(at 113.03 71.1199 0)
 			(effects
 				(font
@@ -4336,7 +4475,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 127.762 160.02 90)
 			(effects
 				(font
@@ -4380,7 +4519,7 @@
 	)
 	(symbol
 		(lib_id "pcb:MAL214297108E3")
-		(at 124.46 41.91 90)
+		(at 135.89 29.21 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4388,7 +4527,7 @@
 		(dnp no)
 		(uuid "baea5fc8-f24c-4bc7-ba48-7f97582e31d5")
 		(property "Reference" "C1"
-			(at 128.27 34.2899 90)
+			(at 132.08 36.8301 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4397,7 +4536,7 @@
 			)
 		)
 		(property "Value" "MAL214297108E3"
-			(at 129.54 36.83 90)
+			(at 130.81 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4406,7 +4545,7 @@
 			)
 		)
 		(property "Footprint" "footprintLib:CAPAE680X800N"
-			(at 220.65 33.02 0)
+			(at 39.7 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4416,7 +4555,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/28577/142cvz.pdf"
-			(at 320.65 33.02 0)
+			(at -60.3 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4426,7 +4565,7 @@
 			)
 		)
 		(property "Description" "Aluminum Electrolytic Capacitors - SMD 47 F 50V 6,3x6,3x7,7mm 105 C 2000h"
-			(at 124.46 41.91 0)
+			(at 135.89 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4435,7 +4574,7 @@
 			)
 		)
 		(property "Height" "8"
-			(at 520.65 33.02 0)
+			(at -260.3 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4445,7 +4584,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 620.65 33.02 0)
+			(at -360.3 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4455,7 +4594,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 720.65 33.02 0)
+			(at -460.3 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4465,7 +4604,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at 820.65 33.02 0)
+			(at -560.3 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4475,7 +4614,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MAL214297108E3"
-			(at 920.65 33.02 0)
+			(at -660.3 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4491,103 +4630,9 @@
 			(uuid "a420a8db-05e2-43bf-a9cc-9cf4cbdcb32d")
 		)
 		(instances
-			(project ""
-				(path "/79cc9cfe-04d6-4d00-aa84-feae66cf8c45/bb18fbb4-ec68-4ac2-b714-52f61fe72a01"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4001")
-		(at 113.03 52.07 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bef51f0c-dc91-4839-a429-13f51c1c3fea")
-		(property "Reference" "D2"
-			(at 115.57 50.7999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Power_D"
-			(at 115.57 53.3399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
-			(at 113.03 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 113.03 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 113.03 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 113.03 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 113.03 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2f6e2d1d-f79f-4ae0-b622-9c99974e45bd")
-		)
-		(pin "2"
-			(uuid "4ad3c24a-52f5-4bc4-8f95-b4476e69744a")
-		)
-		(instances
 			(project "MotorDriver1"
 				(path "/79cc9cfe-04d6-4d00-aa84-feae66cf8c45/bb18fbb4-ec68-4ac2-b714-52f61fe72a01"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-			(project "motorDriver"
-				(path "/f40c456c-d083-4134-81e3-e86a9b252415"
-					(reference "D2")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -4654,6 +4699,128 @@
 			(project "MotorDriver1"
 				(path "/79cc9cfe-04d6-4d00-aa84-feae66cf8c45/bb18fbb4-ec68-4ac2-b714-52f61fe72a01"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pcb:SM5819L2-TP")
+		(at 119.38 118.11 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5653a30-8af7-45f7-92e1-1385bd2d6301")
+		(property "Reference" "D4"
+			(at 123.19 126.9999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SM5819L2-TP"
+			(at 123.19 129.5399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprintLib:SDO_SM5819L2-TP_MCE"
+			(at 25.73 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/SM5819L2(DFN1006-2).pdf"
+			(at -74.27 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode 40 V 1A Surface Mount 2-DFN1006"
+			(at 119.38 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at -274.27 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "833-SM5819L2-TP"
+			(at -374.27 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Micro-Commercial-Components-MCC/SM5819L2-TP?qs=y6ZabgHbY%252BxeWBCRPmsJAA%3D%3D"
+			(at -474.27 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "MCC"
+			(at -574.27 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SM5819L2-TP"
+			(at -674.27 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94bf3e01-b7cd-4a4d-a250-06fbd77b8af3")
+		)
+		(pin "2"
+			(uuid "23989ab9-5732-4705-8482-842226617acf")
+		)
+		(instances
+			(project "MotorDriver1"
+				(path "/79cc9cfe-04d6-4d00-aa84-feae66cf8c45/bb18fbb4-ec68-4ac2-b714-52f61fe72a01"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -4753,7 +4920,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 121.412 77.47 90)
 			(effects
 				(font
@@ -4796,94 +4963,6 @@
 			(project "motorDriver"
 				(path "/f40c456c-d083-4134-81e3-e86a9b252415"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4001")
-		(at 76.2 134.62 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dc876ec7-ccfd-43f0-8f8e-8a23db5d979b")
-		(property "Reference" "D3"
-			(at 78.74 133.3499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Power_D"
-			(at 78.74 135.8899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
-			(at 76.2 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 76.2 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 76.2 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 76.2 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 76.2 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b1ad4a5c-d4ec-462b-b0e5-ed7b60497c44")
-		)
-		(pin "2"
-			(uuid "e492c174-d415-427a-a4d7-db20e401003c")
-		)
-		(instances
-			(project "MotorDriver1"
-				(path "/79cc9cfe-04d6-4d00-aa84-feae66cf8c45/bb18fbb4-ec68-4ac2-b714-52f61fe72a01"
-					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -4956,8 +5035,130 @@
 		)
 	)
 	(symbol
+		(lib_id "pcb:SM5819L2-TP")
+		(at 76.2 118.11 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee436c9f-cd8c-4a08-84c1-2542192ba644")
+		(property "Reference" "D3"
+			(at 80.01 126.9999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SM5819L2-TP"
+			(at 80.01 129.5399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprintLib:SDO_SM5819L2-TP_MCE"
+			(at -17.45 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/SM5819L2(DFN1006-2).pdf"
+			(at -117.45 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode 40 V 1A Surface Mount 2-DFN1006"
+			(at 76.2 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at -317.45 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "833-SM5819L2-TP"
+			(at -417.45 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Micro-Commercial-Components-MCC/SM5819L2-TP?qs=y6ZabgHbY%252BxeWBCRPmsJAA%3D%3D"
+			(at -517.45 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "MCC"
+			(at -617.45 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SM5819L2-TP"
+			(at -717.45 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a90b52eb-ac9d-477c-928e-08415f55947c")
+		)
+		(pin "2"
+			(uuid "f030efa5-d663-4d7b-8fe3-ea8767956e51")
+		)
+		(instances
+			(project "MotorDriver1"
+				(path "/79cc9cfe-04d6-4d00-aa84-feae66cf8c45/bb18fbb4-ec68-4ac2-b714-52f61fe72a01"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "pcb:MAL214297108E3")
-		(at 130.81 121.92 90)
+		(at 130.81 109.22 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4971,7 +5172,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "MAL214297108E3"
@@ -4980,11 +5181,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "footprintLib:CAPAE680X800N"
-			(at 227 113.03 0)
+			(at 34.62 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4994,7 +5195,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/28577/142cvz.pdf"
-			(at 327 113.03 0)
+			(at -65.38 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5004,7 +5205,7 @@
 			)
 		)
 		(property "Description" "Aluminum Electrolytic Capacitors - SMD 47 F 50V 6,3x6,3x7,7mm 105 C 2000h"
-			(at 130.81 121.92 0)
+			(at 130.81 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5013,7 +5214,7 @@
 			)
 		)
 		(property "Height" "8"
-			(at 527 113.03 0)
+			(at -265.38 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5023,7 +5224,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 627 113.03 0)
+			(at -365.38 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5033,7 +5234,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 727 113.03 0)
+			(at -465.38 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5043,7 +5244,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at 827 113.03 0)
+			(at -565.38 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5053,7 +5254,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MAL214297108E3"
-			(at 927 113.03 0)
+			(at -665.38 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5069,7 +5270,7 @@
 			(uuid "32fd6375-4fb6-4406-a89f-9d15cda4303d")
 		)
 		(instances
-			(project ""
+			(project "MotorDriver1"
 				(path "/79cc9cfe-04d6-4d00-aa84-feae66cf8c45/bb18fbb4-ec68-4ac2-b714-52f61fe72a01"
 					(reference "C2")
 					(unit 1)

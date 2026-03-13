@@ -1,0 +1,251 @@
+(footprint "SM5819L2TP"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SM5819L2-TP")
+	(tags "Schottky Diode")
+	(property "Reference" "D**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "ccb3944d-64d0-4b4b-ba9d-219d21e3a8cd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SM5819L2TP"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "fd2f77f7-1dd0-417b-9f14-51454c0b8551")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b3d1d0b7-7d2d-4742-96c0-724b9fddcbde")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0eb3aa9c-173b-4e63-9f2c-3e757a7b7f69")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.1 0)
+		(end -1.1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "52721c26-d1b1-48b4-89d5-73c9c2af9a8e")
+	)
+	(fp_line
+		(start -1 0)
+		(end -1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "40e60505-e376-4a1d-9852-4ca7921d18cf")
+	)
+	(fp_arc
+		(start -1.1 0)
+		(mid -1.05 -0.05)
+		(end -1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0a461816-3702-4d3c-9671-899e16184292")
+	)
+	(fp_arc
+		(start -1 0)
+		(mid -1.05 0.05)
+		(end -1.1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7a5720cf-4937-424f-b51d-dd52d0d59099")
+	)
+	(fp_line
+		(start -1.65 -1.308)
+		(end 1.65 -1.308)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "49cc9ed4-1842-481a-af54-7ae9e4fcb4a3")
+	)
+	(fp_line
+		(start -1.65 1.308)
+		(end -1.65 -1.308)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "67bdb2b3-ba1a-4e2f-a2c3-c212e7d82b12")
+	)
+	(fp_line
+		(start 1.65 -1.308)
+		(end 1.65 1.308)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "34e33ee6-04c0-4111-bd89-4094ed0afb41")
+	)
+	(fp_line
+		(start 1.65 1.308)
+		(end -1.65 1.308)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0857fa32-b43b-4afd-a38a-5b096c73692f")
+	)
+	(fp_line
+		(start -0.508 -0.308)
+		(end -0.508 0.308)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "608fe2c0-f536-40b7-8603-401dcdd217eb")
+	)
+	(fp_line
+		(start -0.508 0.308)
+		(end 0.508 0.308)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1ffab257-c5d6-44c2-a54f-12117352b6d3")
+	)
+	(fp_line
+		(start 0.508 -0.308)
+		(end -0.508 -0.308)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eabf01ca-8fa8-44f5-af6b-7aa68f548769")
+	)
+	(fp_line
+		(start 0.508 0.308)
+		(end 0.508 -0.308)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "de8d4eed-d6cf-4a86-a4be-0f03e3d901a8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "4a515c2e-76e9-409f-9b43-e41fb33cba26")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "f3c48313-496b-435a-bd42-fb94534e2292")
+		(pts
+			(xy -0.65 0) (xy -0.15 0)
+		)
+		(height 3.8)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "0.5"
+			(at -0.4 2.65 0)
+			(layer "Dwgs.User")
+			(uuid "f3c48313-496b-435a-bd42-fb94534e2292")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.4 0)
+		(size 0.5 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "84c16c3a-d4ec-412f-b778-10a9b16ce040")
+	)
+	(pad "2" smd rect
+		(at 0.4 0)
+		(size 0.5 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "62085071-7fcf-4676-ac8e-fd96306efe6e")
+	)
+	(embedded_fonts no)
+	(model "SM5819L2-TP.stp"
+		(offset
+			(xyz -0.01999999925 -0.6000000148 0.4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 0)
+		)
+	)
+)

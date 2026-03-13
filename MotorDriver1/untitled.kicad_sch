@@ -1321,7 +1321,7 @@
 		)
 		(uuid "e174d9d4-9473-4d1b-b253-e72a213c2d82")
 	)
-	(label "CANH"
+	(label "CAN_P"
 		(at 118.11 41.91 0)
 		(effects
 			(font
@@ -1331,7 +1331,7 @@
 		)
 		(uuid "93949f8a-5664-4d6a-9da3-8f9a0bc26c28")
 	)
-	(label "CANL"
+	(label "CAN_N"
 		(at 118.11 49.53 0)
 		(effects
 			(font
@@ -1517,6 +1517,28 @@
 			)
 		)
 	)
+	(global_label "5V"
+		(shape input)
+		(at 109.22 26.67 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8d598c0b-b678-4c33-aabd-067553265c3c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.22 21.3867 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "3V3"
 		(shape output)
 		(at 91.44 109.22 0)
@@ -1645,6 +1667,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V"
+		(shape input)
+		(at 140.97 26.67 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e9e48067-81c1-41a3-9023-75aebef8a26c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.97 21.3867 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -1810,6 +1854,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 109.22 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25caf93e-c179-4d63-aab2-51cc71f02061")
+		(property "Reference" "#PWR017"
+			(at 109.22 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 109.22 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 109.22 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ad4953a-a775-49ce-83ff-57db155fece9")
+		)
+		(instances
+			(project "MotorDriver1"
+				(path "/79cc9cfe-04d6-4d00-aa84-feae66cf8c45/72c1ec77-4632-4600-a6d8-99c07ceb64a9"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 64.77 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1943,6 +2053,76 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 140.97 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e04be07-99cd-4713-bef8-8d76a168877c")
+		(property "Reference" "C19"
+			(at 144.78 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100 nF"
+			(at 144.78 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 141.9352 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 140.97 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5cac13f8-fa77-46fa-941c-ed56f87bd6d1")
+		)
+		(pin "1"
+			(uuid "c4bb3524-6bcd-40e3-ab04-d5d5ec2ee946")
+		)
+		(instances
+			(project "MotorDriver1"
+				(path "/79cc9cfe-04d6-4d00-aa84-feae66cf8c45/72c1ec77-4632-4600-a6d8-99c07ceb64a9"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 204.47 50.8 0)
 		(mirror y)
 		(unit 1)
@@ -1961,7 +2141,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100 nF"
 			(at 200.66 52.0699 0)
 			(effects
 				(font
@@ -2504,6 +2684,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 140.97 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c677ea4e-b942-427c-ba3e-3598fd1541ab")
+		(property "Reference" "#PWR052"
+			(at 140.97 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 140.97 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b56cb28e-f291-4db5-b8bf-dcf8e78215d6")
+		)
+		(instances
+			(project "MotorDriver1"
+				(path "/79cc9cfe-04d6-4d00-aa84-feae66cf8c45/72c1ec77-4632-4600-a6d8-99c07ceb64a9"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 33.02 50.8 0)
 		(unit 1)
@@ -2522,7 +2768,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100 nF"
 			(at 36.83 52.0699 0)
 			(effects
 				(font
@@ -2531,7 +2777,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 33.9852 54.61 0)
 			(effects
 				(font
@@ -2634,6 +2880,76 @@
 			(project ""
 				(path "/79cc9cfe-04d6-4d00-aa84-feae66cf8c45/72c1ec77-4632-4600-a6d8-99c07ceb64a9"
 					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 109.22 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1ffed6c-d404-4ad7-9fbf-6004a2ebce2d")
+		(property "Reference" "C18"
+			(at 113.03 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100 nF"
+			(at 113.03 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 110.1852 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 109.22 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7a9d8142-3b4b-4f07-86a1-d382804ea879")
+		)
+		(pin "1"
+			(uuid "eab4efea-5d94-4eca-ae81-ca8fda027375")
+		)
+		(instances
+			(project "MotorDriver1"
+				(path "/79cc9cfe-04d6-4d00-aa84-feae66cf8c45/72c1ec77-4632-4600-a6d8-99c07ceb64a9"
+					(reference "C18")
 					(unit 1)
 				)
 			)

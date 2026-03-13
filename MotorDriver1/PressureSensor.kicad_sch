@@ -958,7 +958,7 @@
 	)
 	(text_box "Pressure Sensor Amplification\n"
 		(exclude_from_sim no)
-		(at 97.79 76.2 0)
+		(at 97.79 73.66 0)
 		(size 182.88 54.61)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -1020,10 +1020,40 @@
 		(uuid "a595f656-770e-459c-84b1-392830466eb1")
 	)
 	(junction
+		(at 120.65 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ad3bd63-a75f-48dc-a7f4-e2d66404fac0")
+	)
+	(junction
 		(at 209.55 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c7034b7e-6319-4ba0-bdcd-f5d0897ef9d3")
+		(uuid "2cb737a9-909e-4d2f-933f-0ce93d478718")
+	)
+	(junction
+		(at 148.59 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5cafbcd0-7c97-4f0c-b65b-8eaa3ad86858")
+	)
+	(junction
+		(at 248.92 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7fd5e458-e54b-4263-9e83-1f6de53e0d96")
+	)
+	(junction
+		(at 215.9 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0d1d76c-ebfd-4dc1-9bab-55174d1262c5")
+	)
+	(junction
+		(at 120.65 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc504669-07e9-4610-802c-d2be2b8a742a")
 	)
 	(junction
 		(at 161.29 106.68)
@@ -1031,17 +1061,23 @@
 		(color 0 0 0 0)
 		(uuid "e9f751ed-8e57-4585-8c46-90221c6da23f")
 	)
+	(junction
+		(at 248.92 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7d87ad3-f4d7-4ded-be0b-5d61b32b246a")
+	)
 	(no_connect
-		(at 217.17 101.6)
+		(at 243.84 105.41)
 		(uuid "02a1e85f-6bb7-479e-b0ed-96f17b5092e6")
 	)
 	(no_connect
-		(at 129.54 95.25)
+		(at 120.65 102.87)
 		(uuid "fa774cb7-b8a9-457c-80af-cdc5aa459819")
 	)
 	(wire
 		(pts
-			(xy 157.48 106.68) (xy 161.29 106.68)
+			(xy 148.59 106.68) (xy 161.29 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1051,7 +1087,17 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 110.49) (xy 146.05 110.49)
+			(xy 120.65 105.41) (xy 120.65 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "073ff432-f8e8-4585-81c1-de10d09bd350")
+	)
+	(wire
+		(pts
+			(xy 118.11 110.49) (xy 120.65 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1061,23 +1107,13 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 101.6) (xy 252.73 105.41)
+			(xy 243.84 107.95) (xy 248.92 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0bd30797-076d-49ee-be58-2a5bf68dca68")
-	)
-	(wire
-		(pts
-			(xy 129.54 97.79) (xy 118.11 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10a98ea8-392f-4519-a4b4-23023add1713")
+		(uuid "10c2851a-8c85-44cd-89f7-bcd078230ec2")
 	)
 	(wire
 		(pts
@@ -1091,13 +1127,13 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 109.22) (xy 209.55 109.22)
+			(xy 248.92 107.95) (xy 248.92 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1445ab54-9882-4bfb-80cb-a6bf21bccd40")
+		(uuid "1762eee0-fd61-4b02-b810-eeb6e2a8558e")
 	)
 	(wire
 		(pts
@@ -1111,6 +1147,26 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 92.71) (xy 226.06 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28a23af3-61e2-4cfd-b0a8-71ff9fdece83")
+	)
+	(wire
+		(pts
+			(xy 248.92 92.71) (xy 248.92 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4280ba36-1b53-455c-80c6-8b29c392973b")
+	)
+	(wire
+		(pts
 			(xy 213.36 113.03) (xy 213.36 111.76)
 		)
 		(stroke
@@ -1118,6 +1174,16 @@
 			(type default)
 		)
 		(uuid "46254877-d693-4a21-a2be-78316dd309a8")
+	)
+	(wire
+		(pts
+			(xy 138.43 91.44) (xy 148.59 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bf5acd2-ccc2-490e-a56b-00dac98a47a1")
 	)
 	(wire
 		(pts
@@ -1141,16 +1207,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 101.6) (xy 252.73 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85936f01-2065-400a-84c8-483c255dd5a5")
-	)
-	(wire
-		(pts
 			(xy 146.05 109.22) (xy 162.56 109.22)
 		)
 		(stroke
@@ -1161,13 +1217,63 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 95.25) (xy 157.48 106.68)
+			(xy 148.59 102.87) (xy 148.59 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "94349b4d-0fb2-4f03-8169-15167bd474a8")
+	)
+	(wire
+		(pts
+			(xy 120.65 110.49) (xy 146.05 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98324afa-8f6c-47ce-b6e6-f5d7abbb63c1")
+	)
+	(wire
+		(pts
+			(xy 233.68 92.71) (xy 248.92 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ba77945-e393-4770-b0e2-cf7422169757")
+	)
+	(wire
+		(pts
+			(xy 115.57 105.41) (xy 120.65 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f6594f5-2cd1-4314-9dc7-f5b1a480b8f3")
+	)
+	(wire
+		(pts
+			(xy 115.57 91.44) (xy 130.81 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a02f62fb-9f2f-4b8b-9d1e-17f97903a902")
+	)
+	(wire
+		(pts
+			(xy 148.59 91.44) (xy 148.59 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a91432c9-e271-4c1d-9b42-a3fd291cccd9")
 	)
 	(wire
 		(pts
@@ -1201,16 +1307,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 97.79) (xy 118.11 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b48baccc-aa23-4546-97bc-ec7a4f3e2cba")
-	)
-	(wire
-		(pts
 			(xy 161.29 104.14) (xy 161.29 106.68)
 		)
 		(stroke
@@ -1221,7 +1317,17 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 113.03) (xy 252.73 113.03)
+			(xy 248.92 113.03) (xy 252.73 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd14bda6-2331-483a-8c32-a3d86f3814a1")
+	)
+	(wire
+		(pts
+			(xy 213.36 113.03) (xy 248.92 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1241,13 +1347,13 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 104.14) (xy 217.17 109.22)
+			(xy 115.57 91.44) (xy 115.57 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e2952521-0e52-49e4-9738-24d5f6b472cc")
+		(uuid "df121f4d-34c9-4f9d-a369-c9206aafb99b")
 	)
 	(wire
 		(pts
@@ -1258,6 +1364,16 @@
 			(type default)
 		)
 		(uuid "e6d282f5-f555-4d69-ba1b-aee37c5989ef")
+	)
+	(wire
+		(pts
+			(xy 215.9 92.71) (xy 215.9 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7b1490e-8124-405b-a38d-cb908cee8599")
 	)
 	(wire
 		(pts
@@ -1278,6 +1394,26 @@
 			(type default)
 		)
 		(uuid "efcd5d6b-f02f-432c-a0ff-8dbe8c69a1cd")
+	)
+	(wire
+		(pts
+			(xy 215.9 105.41) (xy 215.9 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7db0a52-5708-4ec5-8dae-20390564386e")
+	)
+	(wire
+		(pts
+			(xy 209.55 109.22) (xy 215.9 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd8068c0-5e7d-4753-bec2-35cbfaba5502")
 	)
 	(global_label "SensorD_0.5V"
 		(shape input)
@@ -1477,6 +1613,28 @@
 			)
 		)
 	)
+	(global_label "3V3"
+		(shape input)
+		(at 262.89 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c072c5b6-12a8-4322-bb43-cdad6041116a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.3828 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SensorDOut"
 		(shape output)
 		(at 209.55 105.41 90)
@@ -1650,7 +1808,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1800"
+		(property "Value" "1.8k"
 			(at 68.58 102.8699 0)
 			(effects
 				(font
@@ -1696,6 +1854,75 @@
 			(project "MotorDriver1"
 				(path "/79cc9cfe-04d6-4d00-aa84-feae66cf8c45/309a6c57-e91b-42c8-8b29-fcecc8b43c4f"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 262.89 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4b71855f-297d-4a68-80e4-5dbb6cd0ce97")
+		(property "Reference" "C17"
+			(at 266.7 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100 nF"
+			(at 266.7 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 263.8552 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 262.89 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 262.89 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1b1d746-c150-4a4f-a6f9-baff96b6165b")
+		)
+		(pin "2"
+			(uuid "ce5f0e48-91fc-4bc1-9b35-90dc19d09d1d")
+		)
+		(instances
+			(project "MotorDriver1"
+				(path "/79cc9cfe-04d6-4d00-aa84-feae66cf8c45/309a6c57-e91b-42c8-8b29-fcecc8b43c4f"
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -1784,7 +2011,7 @@
 				)
 			)
 		)
-		(property "Value" "10000"
+		(property "Value" "10k"
 			(at 57.15 88.9 90)
 			(effects
 				(font
@@ -1983,7 +2210,7 @@
 				)
 			)
 		)
-		(property "Value" "10000"
+		(property "Value" "10k"
 			(at 54.61 149.86 90)
 			(effects
 				(font
@@ -2205,7 +2432,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1800"
+		(property "Value" "1.8k"
 			(at 66.04 163.8299 0)
 			(effects
 				(font
@@ -2328,7 +2555,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 118.11 106.68 180)
+		(at 134.62 91.44 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2337,25 +2564,23 @@
 		(fields_autoplaced yes)
 		(uuid "c0171b6a-8be1-4840-a2ec-2217a6feef3c")
 		(property "Reference" "C_A1"
-			(at 121.92 105.4099 0)
+			(at 134.62 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "44nF"
-			(at 121.92 107.9499 0)
+		(property "Value" "47 nF"
+			(at 134.62 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 117.1448 102.87 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 130.81 92.4052 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2364,7 +2589,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 118.11 106.68 0)
+			(at 134.62 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2373,7 +2598,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 118.11 106.68 0)
+			(at 134.62 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2397,8 +2622,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 262.89 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2d1016d-4609-4db4-a113-3c18e94066cc")
+		(property "Reference" "#PWR0101"
+			(at 262.89 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 262.89 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 262.89 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2bc6c978-b802-47d9-a218-e5064e9dd07f")
+		)
+		(instances
+			(project "MotorDriver1"
+				(path "/79cc9cfe-04d6-4d00-aa84-feae66cf8c45/309a6c57-e91b-42c8-8b29-fcecc8b43c4f"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
-		(at 252.73 109.22 180)
+		(at 229.87 92.71 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2407,25 +2698,23 @@
 		(fields_autoplaced yes)
 		(uuid "dddcb961-ec05-450a-97a4-058b92ad2523")
 		(property "Reference" "C_D1"
-			(at 256.54 107.9499 0)
+			(at 229.87 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "44nF"
-			(at 256.54 110.4899 0)
+		(property "Value" "47 nF"
+			(at 229.87 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 251.7648 105.41 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 226.06 93.6752 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2434,7 +2723,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 252.73 109.22 0)
+			(at 229.87 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2443,7 +2732,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 252.73 109.22 0)
+			(at 229.87 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2538,16 +2827,16 @@
 	)
 	(symbol
 		(lib_id "pcb:TS53YJ105MR10")
-		(at 217.17 101.6 0)
+		(at 243.84 105.41 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f6ecb3d5-627e-485a-96ea-debd56ae531c")
 		(property "Reference" "VR2"
-			(at 231.14 93.98 0)
+			(at 229.87 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2555,7 +2844,7 @@
 			)
 		)
 		(property "Value" "TS53YJ105MR10"
-			(at 231.14 96.52 0)
+			(at 229.87 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2563,7 +2852,7 @@
 			)
 		)
 		(property "Footprint" "footprintLib:TS53YJ105MR10"
-			(at 241.3 196.52 0)
+			(at 219.71 200.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2573,7 +2862,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/51008/ts53.pdf"
-			(at 241.3 296.52 0)
+			(at 219.71 300.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2583,7 +2872,7 @@
 			)
 		)
 		(property "Description" "1 MOhms 0.04W J Lead Surface Mount Trimmer Potentiometer Cermet 1.0 Turn Top Adjustment , 200V , -55C to +125C"
-			(at 217.17 101.6 0)
+			(at 243.84 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2592,7 +2881,7 @@
 			)
 		)
 		(property "Height" "2.95"
-			(at 241.3 496.52 0)
+			(at 219.71 500.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2602,7 +2891,7 @@
 			)
 		)
 		(property "Mouser Part Number" "72-TS53YJ-1M"
-			(at 241.3 596.52 0)
+			(at 219.71 600.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2612,7 +2901,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Sfernice/TS53YJ105MR10?qs=MsRaK5qBadTiKr%252Be0VnuMw%3D%3D"
-			(at 241.3 696.52 0)
+			(at 219.71 700.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2622,7 +2911,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at 241.3 796.52 0)
+			(at 219.71 800.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2632,7 +2921,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "TS53YJ105MR10"
-			(at 241.3 896.52 0)
+			(at 219.71 900.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2661,7 +2950,7 @@
 	)
 	(symbol
 		(lib_id "pcb:TS53YJ105MR10")
-		(at 129.54 95.25 0)
+		(at 120.65 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2670,7 +2959,7 @@
 		(fields_autoplaced yes)
 		(uuid "fef07d41-b07f-45ef-84fa-3400b37b03c8")
 		(property "Reference" "VR1"
-			(at 143.51 87.63 0)
+			(at 134.62 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2678,7 +2967,7 @@
 			)
 		)
 		(property "Value" "TS53YJ105MR10"
-			(at 143.51 90.17 0)
+			(at 134.62 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2686,7 +2975,7 @@
 			)
 		)
 		(property "Footprint" "footprintLib:TS53YJ105MR10"
-			(at 153.67 190.17 0)
+			(at 144.78 197.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2696,7 +2985,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/51008/ts53.pdf"
-			(at 153.67 290.17 0)
+			(at 144.78 297.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2706,7 +2995,7 @@
 			)
 		)
 		(property "Description" "1 MOhms 0.04W J Lead Surface Mount Trimmer Potentiometer Cermet 1.0 Turn Top Adjustment , 200V , -55C to +125C"
-			(at 129.54 95.25 0)
+			(at 120.65 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2715,7 +3004,7 @@
 			)
 		)
 		(property "Height" "2.95"
-			(at 153.67 490.17 0)
+			(at 144.78 497.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2725,7 +3014,7 @@
 			)
 		)
 		(property "Mouser Part Number" "72-TS53YJ-1M"
-			(at 153.67 590.17 0)
+			(at 144.78 597.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2735,7 +3024,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Sfernice/TS53YJ105MR10?qs=MsRaK5qBadTiKr%252Be0VnuMw%3D%3D"
-			(at 153.67 690.17 0)
+			(at 144.78 697.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2745,7 +3034,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at 153.67 790.17 0)
+			(at 144.78 797.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2755,7 +3044,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "TS53YJ105MR10"
-			(at 153.67 890.17 0)
+			(at 144.78 897.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
