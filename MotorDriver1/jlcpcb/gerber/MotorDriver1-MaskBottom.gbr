@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,9.0.4*%
-%TF.CreationDate,2026-03-13T05:34:26-04:00*%
+%TF.CreationDate,2026-03-13T15:36:02-04:00*%
 %TF.ProjectId,MotorDriver1,4d6f746f-7244-4726-9976-6572312e6b69,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Soldermask,Bot*%
 %TF.FilePolarity,Negative*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 9.0.4) date 2026-03-13 05:34:26*
+G04 Created by KiCad (PCBNEW 9.0.4) date 2026-03-13 15:36:02*
 %MOMM*%
 %LPD*%
 G01*
@@ -18,14 +18,8 @@ G04 APERTURE LIST*
 %ADD14C,0.660400*%
 G04 APERTURE END LIST*
 D10*
-%TO.C,H3*%
-X180500000Y-123500000D03*
-%TD*%
 %TO.C,H2*%
 X137500000Y-123500000D03*
-%TD*%
-%TO.C,H1*%
-X121000000Y-55500000D03*
 %TD*%
 D11*
 %TO.C,Conn2*%
@@ -39,11 +33,19 @@ X150265000Y-121500000D03*
 D12*
 X147725000Y-121500000D03*
 %TD*%
+D10*
+%TO.C,H3*%
+X180500000Y-123500000D03*
+%TD*%
 D11*
 %TO.C,VBAT1*%
 X176960000Y-78000000D03*
 D12*
 X179500000Y-78000000D03*
+%TD*%
+D10*
+%TO.C,H1*%
+X121000000Y-55500000D03*
 %TD*%
 D13*
 %TO.C,U3*%
