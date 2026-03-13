@@ -21373,13 +21373,13 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C_A1"
-			(at 0 -1.16 270)
+			(at 2.3779 0 90)
 			(layer "F.SilkS")
 			(uuid "b71764ee-ee88-427b-a8f4-d6c28683734e")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -23140,13 +23140,13 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C_D1"
-			(at 0 -1.16 90)
+			(at -2.2779 -0.1 90)
 			(layer "F.SilkS")
 			(uuid "f7d966a1-e341-483f-b408-31c922993de3")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -23562,7 +23562,7 @@
 		)
 	)
 	(gr_text "BOOT"
-		(at 168.5 97 0)
+		(at 170 97.75 0)
 		(layer "F.SilkS")
 		(uuid "5734e568-d074-42b0-a5d2-c5fb1b7ee0b0")
 		(effects
@@ -23740,6 +23740,18 @@
 				(bold yes)
 			)
 			(justify bottom)
+		)
+	)
+	(gr_text "WARNING:\nDO NOT USE ESP USB\nIF BATTERY IS ON"
+		(at 150.5 54.75 0)
+		(layer "F.SilkS")
+		(uuid "edd0c935-18ee-4033-a555-de7f34c19ba3")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.1125)
+			)
+			(justify left bottom)
 		)
 	)
 	(gr_text "5V"
