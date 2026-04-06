@@ -29,8 +29,8 @@
 //Example Configurations
 #define NO_OF_MSGS              100
 #define NO_OF_ITERS             3
-#define TX_GPIO_NUM             GPIO_NUM_11
-#define RX_GPIO_NUM             GPIO_NUM_12
+#define TX_GPIO_NUM             GPIO_NUM_43
+#define RX_GPIO_NUM             GPIO_NUM_44
 #define TX_TASK_PRIO            8       //Sending task priority
 #define RX_TASK_PRIO            9       //Receiving task priority
 #define CTRL_TSK_PRIO           10      //Control task priority
