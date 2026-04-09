@@ -324,6 +324,48 @@
 		)
 	)
 	(sheet
+		(at 26.67 119.38)
+		(size 43.18 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5efa30f9-cd93-43e4-8c10-63407da99861")
+		(property "Sheetname" "motorDriver_Pads34"
+			(at 26.67 118.6684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motorDriver2.kicad_sch"
+			(at 26.67 146.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MotorDriver1"
+				(path "/79cc9cfe-04d6-4d00-aa84-feae66cf8c45"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 77.47 154.94)
 		(size 43.18 26.67)
 		(exclude_from_sim no)
@@ -366,13 +408,12 @@
 		)
 	)
 	(sheet
-		(at 26.67 119.38)
+		(at 26.67 85.09)
 		(size 43.18 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -381,8 +422,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "bb18fbb4-ec68-4ac2-b714-52f61fe72a01")
-		(property "Sheetname" "motorDriver"
-			(at 26.67 118.6684 0)
+		(property "Sheetname" "motorDriver_Pads12"
+			(at 26.67 84.3784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -391,7 +432,7 @@
 			)
 		)
 		(property "Sheetfile" "motorDriver.kicad_sch"
-			(at 26.67 146.6346 0)
+			(at 26.67 112.3446 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -740,7 +740,7 @@
     ],
     [
       "bb18fbb4-ec68-4ac2-b714-52f61fe72a01",
-      "motorDriver"
+      "motorDriver_Pads12"
     ],
     [
       "d5cdf697-4d49-4f45-b387-9e9064a8239b",
@@ -753,6 +753,10 @@
     [
       "72c1ec77-4632-4600-a6d8-99c07ceb64a9",
       "FDCAN"
+    ],
+    [
+      "5efa30f9-cd93-43e4-8c10-63407da99861",
+      "motorDriver_Pads34"
     ]
   ],
   "text_variables": {}
