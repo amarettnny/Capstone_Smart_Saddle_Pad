@@ -735,28 +735,32 @@
   },
   "sheets": [
     [
-      "79cc9cfe-04d6-4d00-aa84-feae66cf8c45",
+      "6e0510ec-6dbc-4bc1-a315-3680b1127a92",
       "Root"
     ],
     [
-      "bb18fbb4-ec68-4ac2-b714-52f61fe72a01",
-      "motorDriver_Pads12"
+      "e5c2b0ac-3fa0-4b0f-bd42-52dfd306878f",
+      "motors1"
     ],
     [
-      "d5cdf697-4d49-4f45-b387-9e9064a8239b",
+      "a1429e3d-ef4d-47b6-9928-651296addde0",
+      "motors2"
+    ],
+    [
+      "84d965bc-7f0b-4bc5-931c-8ce848efd12b",
+      "pressureSensors"
+    ],
+    [
+      "926881a1-c2b6-481c-8aad-58e7a2acf224",
+      "ADCfilters"
+    ],
+    [
+      "06299a0e-39a9-4081-8894-5693d9896b0f",
       "stm32"
     ],
     [
-      "309a6c57-e91b-42c8-8b29-fcecc8b43c4f",
-      "PressureSensor"
-    ],
-    [
-      "72c1ec77-4632-4600-a6d8-99c07ceb64a9",
-      "FDCAN"
-    ],
-    [
-      "5efa30f9-cd93-43e4-8c10-63407da99861",
-      "motorDriver_Pads34"
+      "3247411b-d198-4d8e-83c0-cfd1101ef780",
+      "digiControls"
     ]
   ],
   "text_variables": {}

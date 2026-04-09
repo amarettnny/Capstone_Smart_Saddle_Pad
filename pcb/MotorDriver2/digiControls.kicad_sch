@@ -1779,6 +1779,12 @@
 		)
 		(instances
 			(project "MotorDriver1"
+				(path "/6e0510ec-6dbc-4bc1-a315-3680b1127a92/3247411b-d198-4d8e-83c0-cfd1101ef780"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+			(project "MotorDriver1"
 				(path "/79cc9cfe-04d6-4d00-aa84-feae66cf8c45/72c1ec77-4632-4600-a6d8-99c07ceb64a9"
 					(reference "R23")
 					(unit 1)
@@ -1844,6 +1850,12 @@
 			(uuid "ff1dbd73-4810-4a2e-b58d-306556c94547")
 		)
 		(instances
+			(project "MotorDriver1"
+				(path "/6e0510ec-6dbc-4bc1-a315-3680b1127a92/3247411b-d198-4d8e-83c0-cfd1101ef780"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
 			(project "MotorDriver1"
 				(path "/79cc9cfe-04d6-4d00-aa84-feae66cf8c45/72c1ec77-4632-4600-a6d8-99c07ceb64a9"
 					(reference "#PWR045")
@@ -1911,6 +1923,12 @@
 		)
 		(instances
 			(project "MotorDriver1"
+				(path "/6e0510ec-6dbc-4bc1-a315-3680b1127a92/3247411b-d198-4d8e-83c0-cfd1101ef780"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+			(project "MotorDriver1"
 				(path "/79cc9cfe-04d6-4d00-aa84-feae66cf8c45/72c1ec77-4632-4600-a6d8-99c07ceb64a9"
 					(reference "#PWR017")
 					(unit 1)
@@ -1976,6 +1994,12 @@
 			(uuid "83b2cffa-1a2f-43cd-95ff-99bda1855ca8")
 		)
 		(instances
+			(project "MotorDriver1"
+				(path "/6e0510ec-6dbc-4bc1-a315-3680b1127a92/3247411b-d198-4d8e-83c0-cfd1101ef780"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
 			(project "MotorDriver1"
 				(path "/79cc9cfe-04d6-4d00-aa84-feae66cf8c45/72c1ec77-4632-4600-a6d8-99c07ceb64a9"
 					(reference "#PWR046")
@@ -2043,6 +2067,12 @@
 			(uuid "039c5dfc-7144-45a5-9373-7dd909542227")
 		)
 		(instances
+			(project "MotorDriver1"
+				(path "/6e0510ec-6dbc-4bc1-a315-3680b1127a92/3247411b-d198-4d8e-83c0-cfd1101ef780"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
 			(project "MotorDriver1"
 				(path "/79cc9cfe-04d6-4d00-aa84-feae66cf8c45/72c1ec77-4632-4600-a6d8-99c07ceb64a9"
 					(reference "#PWR050")
@@ -2113,6 +2143,12 @@
 			(uuid "c4bb3524-6bcd-40e3-ab04-d5d5ec2ee946")
 		)
 		(instances
+			(project "MotorDriver1"
+				(path "/6e0510ec-6dbc-4bc1-a315-3680b1127a92/3247411b-d198-4d8e-83c0-cfd1101ef780"
+					(reference "C19")
+					(unit 1)
+				)
+			)
 			(project "MotorDriver1"
 				(path "/79cc9cfe-04d6-4d00-aa84-feae66cf8c45/72c1ec77-4632-4600-a6d8-99c07ceb64a9"
 					(reference "C19")
@@ -2185,6 +2221,12 @@
 		)
 		(instances
 			(project "MotorDriver1"
+				(path "/6e0510ec-6dbc-4bc1-a315-3680b1127a92/3247411b-d198-4d8e-83c0-cfd1101ef780"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+			(project "MotorDriver1"
 				(path "/79cc9cfe-04d6-4d00-aa84-feae66cf8c45/72c1ec77-4632-4600-a6d8-99c07ceb64a9"
 					(reference "C16")
 					(unit 1)
@@ -2251,6 +2293,12 @@
 			(uuid "032b81be-7946-4f97-bb39-654ce41c5d6d")
 		)
 		(instances
+			(project "MotorDriver1"
+				(path "/6e0510ec-6dbc-4bc1-a315-3680b1127a92/3247411b-d198-4d8e-83c0-cfd1101ef780"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
 			(project "MotorDriver1"
 				(path "/79cc9cfe-04d6-4d00-aa84-feae66cf8c45/72c1ec77-4632-4600-a6d8-99c07ceb64a9"
 					(reference "#PWR049")
@@ -2322,6 +2370,12 @@
 		)
 		(instances
 			(project "MotorDriver1"
+				(path "/6e0510ec-6dbc-4bc1-a315-3680b1127a92/3247411b-d198-4d8e-83c0-cfd1101ef780"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+			(project "MotorDriver1"
 				(path "/79cc9cfe-04d6-4d00-aa84-feae66cf8c45/72c1ec77-4632-4600-a6d8-99c07ceb64a9"
 					(reference "R21")
 					(unit 1)
@@ -2392,6 +2446,12 @@
 			(uuid "c6aca910-fff4-47f0-bab3-e9485ffa1ac4")
 		)
 		(instances
+			(project "MotorDriver1"
+				(path "/6e0510ec-6dbc-4bc1-a315-3680b1127a92/3247411b-d198-4d8e-83c0-cfd1101ef780"
+					(reference "R22")
+					(unit 1)
+				)
+			)
 			(project "MotorDriver1"
 				(path "/79cc9cfe-04d6-4d00-aa84-feae66cf8c45/72c1ec77-4632-4600-a6d8-99c07ceb64a9"
 					(reference "R22")
@@ -2497,6 +2557,12 @@
 		)
 		(instances
 			(project ""
+				(path "/6e0510ec-6dbc-4bc1-a315-3680b1127a92/3247411b-d198-4d8e-83c0-cfd1101ef780"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/79cc9cfe-04d6-4d00-aa84-feae66cf8c45/72c1ec77-4632-4600-a6d8-99c07ceb64a9"
 					(reference "U3")
 					(unit 1)
@@ -2585,6 +2651,12 @@
 			(uuid "aaf9fa0a-15b6-4136-a5b4-60ea1d7c75c2")
 		)
 		(instances
+			(project ""
+				(path "/6e0510ec-6dbc-4bc1-a315-3680b1127a92/3247411b-d198-4d8e-83c0-cfd1101ef780"
+					(reference "U4")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/79cc9cfe-04d6-4d00-aa84-feae66cf8c45/72c1ec77-4632-4600-a6d8-99c07ceb64a9"
 					(reference "U4")
@@ -2676,6 +2748,12 @@
 		)
 		(instances
 			(project "MotorDriver1"
+				(path "/6e0510ec-6dbc-4bc1-a315-3680b1127a92/3247411b-d198-4d8e-83c0-cfd1101ef780"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+			(project "MotorDriver1"
 				(path "/79cc9cfe-04d6-4d00-aa84-feae66cf8c45/72c1ec77-4632-4600-a6d8-99c07ceb64a9"
 					(reference "U5")
 					(unit 1)
@@ -2741,6 +2819,12 @@
 			(uuid "b56cb28e-f291-4db5-b8bf-dcf8e78215d6")
 		)
 		(instances
+			(project "MotorDriver1"
+				(path "/6e0510ec-6dbc-4bc1-a315-3680b1127a92/3247411b-d198-4d8e-83c0-cfd1101ef780"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
 			(project "MotorDriver1"
 				(path "/79cc9cfe-04d6-4d00-aa84-feae66cf8c45/72c1ec77-4632-4600-a6d8-99c07ceb64a9"
 					(reference "#PWR052")
@@ -2812,6 +2896,12 @@
 		)
 		(instances
 			(project ""
+				(path "/6e0510ec-6dbc-4bc1-a315-3680b1127a92/3247411b-d198-4d8e-83c0-cfd1101ef780"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/79cc9cfe-04d6-4d00-aa84-feae66cf8c45/72c1ec77-4632-4600-a6d8-99c07ceb64a9"
 					(reference "C15")
 					(unit 1)
@@ -2877,6 +2967,12 @@
 			(uuid "822cbd7b-19d1-418e-a6e0-62f80ed85f3b")
 		)
 		(instances
+			(project ""
+				(path "/6e0510ec-6dbc-4bc1-a315-3680b1127a92/3247411b-d198-4d8e-83c0-cfd1101ef780"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/79cc9cfe-04d6-4d00-aa84-feae66cf8c45/72c1ec77-4632-4600-a6d8-99c07ceb64a9"
 					(reference "#PWR047")
@@ -2948,6 +3044,12 @@
 		)
 		(instances
 			(project "MotorDriver1"
+				(path "/6e0510ec-6dbc-4bc1-a315-3680b1127a92/3247411b-d198-4d8e-83c0-cfd1101ef780"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+			(project "MotorDriver1"
 				(path "/79cc9cfe-04d6-4d00-aa84-feae66cf8c45/72c1ec77-4632-4600-a6d8-99c07ceb64a9"
 					(reference "C18")
 					(unit 1)
@@ -3014,6 +3116,12 @@
 			(uuid "bf5ebde8-201e-4440-9dfb-8b8a2ac05566")
 		)
 		(instances
+			(project "MotorDriver1"
+				(path "/6e0510ec-6dbc-4bc1-a315-3680b1127a92/3247411b-d198-4d8e-83c0-cfd1101ef780"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
 			(project "MotorDriver1"
 				(path "/79cc9cfe-04d6-4d00-aa84-feae66cf8c45/72c1ec77-4632-4600-a6d8-99c07ceb64a9"
 					(reference "#PWR048")
@@ -3085,6 +3193,12 @@
 		)
 		(instances
 			(project ""
+				(path "/6e0510ec-6dbc-4bc1-a315-3680b1127a92/3247411b-d198-4d8e-83c0-cfd1101ef780"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/79cc9cfe-04d6-4d00-aa84-feae66cf8c45/72c1ec77-4632-4600-a6d8-99c07ceb64a9"
 					(reference "R20")
 					(unit 1)
@@ -3151,6 +3265,12 @@
 			(uuid "cbe1f583-1e96-4d14-8d9a-7c8710637dec")
 		)
 		(instances
+			(project "MotorDriver1"
+				(path "/6e0510ec-6dbc-4bc1-a315-3680b1127a92/3247411b-d198-4d8e-83c0-cfd1101ef780"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
 			(project "MotorDriver1"
 				(path "/79cc9cfe-04d6-4d00-aa84-feae66cf8c45/72c1ec77-4632-4600-a6d8-99c07ceb64a9"
 					(reference "#PWR051")
