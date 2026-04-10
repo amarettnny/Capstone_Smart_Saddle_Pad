@@ -1064,7 +1064,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "Sensor A\n"
+	(text_box "Amplifier Circuit"
 		(exclude_from_sim no)
 		(at 90.17 66.04 0)
 		(size 191.77 88.9)
