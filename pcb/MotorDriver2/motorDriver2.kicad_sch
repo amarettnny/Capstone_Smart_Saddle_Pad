@@ -488,7 +488,7 @@
 	)
 	(text_box "Battery Connector"
 		(exclude_from_sim no)
-		(at 124.46 48.26 0)
+		(at 130.81 101.6 0)
 		(size 58.42 29.21)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -509,7 +509,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 62.23) (xy 143.51 62.23)
+			(xy 153.67 115.57) (xy 149.86 115.57)
 		)
 		(stroke
 			(width 0)
@@ -519,7 +519,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 60.96) (xy 168.91 60.96)
+			(xy 173.99 114.3) (xy 175.26 114.3)
 		)
 		(stroke
 			(width 0)
@@ -529,7 +529,7 @@
 	)
 	(global_label "5V"
 		(shape input)
-		(at 168.91 52.07 180)
+		(at 175.26 105.41 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -539,7 +539,7 @@
 		)
 		(uuid "375341b2-8fd5-4be7-9085-dd9a58eec713")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.6267 52.07 0)
+			(at 169.9767 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -551,7 +551,7 @@
 	)
 	(global_label "3V3"
 		(shape input)
-		(at 168.91 69.85 180)
+		(at 175.26 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -561,7 +561,7 @@
 		)
 		(uuid "3fc423a9-aea6-4490-822f-dcc03f6d8e1f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.4172 69.85 0)
+			(at 168.7672 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -573,7 +573,7 @@
 	)
 	(global_label "5V"
 		(shape output)
-		(at 151.13 64.77 0)
+		(at 157.48 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -583,7 +583,7 @@
 		)
 		(uuid "f3db3376-e6b1-43a1-b4d3-6ea8c1e4b7b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.4133 64.77 0)
+			(at 162.7633 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -595,7 +595,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 167.64 60.96 270)
+		(at 173.99 114.3 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -603,7 +603,7 @@
 		(dnp no)
 		(uuid "681870ae-e3e2-4749-90f6-c32507433f28")
 		(property "Reference" "#PWR012"
-			(at 161.29 60.96 0)
+			(at 167.64 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -612,7 +612,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 163.83 60.96 0)
+			(at 170.18 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -620,7 +620,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 60.96 0)
+			(at 173.99 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -629,7 +629,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 60.96 0)
+			(at 173.99 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -638,7 +638,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 60.96 0)
+			(at 173.99 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -660,7 +660,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 168.91 52.07 270)
+		(at 175.26 105.41 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -669,7 +669,7 @@
 		(fields_autoplaced yes)
 		(uuid "783c3304-b437-4311-bb8c-84daa404f10a")
 		(property "Reference" "#FLG01"
-			(at 170.815 52.07 0)
+			(at 177.165 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -678,7 +678,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 170.18 55.88 90)
+			(at 176.53 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -686,7 +686,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 52.07 0)
+			(at 175.26 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -695,7 +695,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.91 52.07 0)
+			(at 175.26 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -704,7 +704,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 168.91 52.07 0)
+			(at 175.26 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -726,7 +726,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 138.43 64.77 180)
+		(at 144.78 118.11 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -734,7 +734,7 @@
 		(dnp no)
 		(uuid "8a184c5f-ca06-490b-9b08-e9403585c666")
 		(property "Reference" "VBAT1"
-			(at 135.89 64.77 0)
+			(at 142.24 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -743,7 +743,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 135.89 62.2301 0)
+			(at 142.24 115.5701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -752,7 +752,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 138.43 64.77 0)
+			(at 144.78 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -761,7 +761,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 64.77 0)
+			(at 144.78 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -770,7 +770,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 138.43 64.77 0)
+			(at 144.78 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -795,7 +795,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 147.32 62.23 90)
+		(at 153.67 115.57 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -803,7 +803,7 @@
 		(dnp no)
 		(uuid "8ece1164-521d-420b-8682-4142027ff058")
 		(property "Reference" "#PWR011"
-			(at 153.67 62.23 0)
+			(at 160.02 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -812,7 +812,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 151.13 62.23 0)
+			(at 157.48 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -820,7 +820,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 62.23 0)
+			(at 153.67 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -829,7 +829,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 62.23 0)
+			(at 153.67 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -838,7 +838,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 62.23 0)
+			(at 153.67 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -860,7 +860,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 168.91 69.85 270)
+		(at 175.26 123.19 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -869,7 +869,7 @@
 		(fields_autoplaced yes)
 		(uuid "de04a9b2-2a5f-48b3-bb0f-2ca19a16d137")
 		(property "Reference" "#FLG03"
-			(at 170.815 69.85 0)
+			(at 177.165 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -878,7 +878,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 170.18 73.66 90)
+			(at 176.53 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -886,7 +886,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 69.85 0)
+			(at 175.26 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -895,7 +895,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.91 69.85 0)
+			(at 175.26 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -904,7 +904,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 168.91 69.85 0)
+			(at 175.26 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -926,7 +926,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 168.91 60.96 270)
+		(at 175.26 114.3 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -935,7 +935,7 @@
 		(fields_autoplaced yes)
 		(uuid "f9771544-de91-45f5-a4b3-4d1126721b43")
 		(property "Reference" "#FLG02"
-			(at 170.815 60.96 0)
+			(at 177.165 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -944,7 +944,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 170.18 64.77 90)
+			(at 176.53 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -952,7 +952,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 60.96 0)
+			(at 175.26 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -961,7 +961,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.91 60.96 0)
+			(at 175.26 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -970,7 +970,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 168.91 60.96 0)
+			(at 175.26 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -992,7 +992,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 147.32 64.77 90)
+		(at 153.67 118.11 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1000,7 +1000,7 @@
 		(dnp no)
 		(uuid "ff155b23-fce9-483a-b7fe-10445f7e16f5")
 		(property "Reference" "F2"
-			(at 147.066 68.326 90)
+			(at 153.416 121.666 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1008,7 +1008,7 @@
 			)
 		)
 		(property "Value" "MINISMDC260F/16-2"
-			(at 147.066 70.866 90)
+			(at 153.416 124.206 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1016,7 +1016,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
-			(at 147.32 66.548 90)
+			(at 153.67 119.888 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1025,7 +1025,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 64.77 0)
+			(at 153.67 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1034,7 +1034,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 147.32 64.77 0)
+			(at 153.67 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -370,7 +370,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "Place filters close to ADC input! For nyquist & kickback"
+	(text_box "Place filters close to ADC input! Nyquist (80 Hz cutoff for 200 Hz sampling)"
 		(exclude_from_sim no)
 		(at 49.53 44.45 0)
 		(size 114.3 63.5)
@@ -391,22 +391,22 @@
 		(uuid "9ce13b69-69a9-4b7c-ac1e-3d7a3bd39be6")
 	)
 	(junction
+		(at 142.24 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1883c982-98eb-4ee4-b6d5-3f9924a64a71")
+	)
+	(junction
 		(at 142.24 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1009ac43-732a-41fb-9457-4eb5a7e4df6d")
+		(uuid "6f643fea-b70a-40b0-b2f2-1e72704616a5")
 	)
 	(junction
 		(at 85.09 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1c4c0f85-c5de-405f-aac1-638e924ea941")
-	)
-	(junction
-		(at 142.24 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c3657831-dc84-4156-909d-4f99d1f82652")
+		(uuid "8d66a101-8919-48d3-8744-4da4fa3b2ac8")
 	)
 	(junction
 		(at 85.09 60.96)
@@ -416,13 +416,13 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 88.9) (xy 142.24 88.9)
+			(xy 142.24 60.96) (xy 148.59 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "20cb447e-0518-4aa5-8718-04b09dfe3122")
+		(uuid "03cccada-5e4d-45d6-afdd-28e51db64ee0")
 	)
 	(wire
 		(pts
@@ -446,16 +446,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 60.96) (xy 142.24 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7474b497-6fa7-4be3-8acb-4fc6565d3c2b")
-	)
-	(wire
-		(pts
 			(xy 67.31 60.96) (xy 69.85 60.96)
 		)
 		(stroke
@@ -466,7 +456,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 60.96) (xy 148.59 60.96)
+			(xy 134.62 60.96) (xy 142.24 60.96)
 		)
 		(stroke
 			(width 0)
@@ -496,7 +486,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 88.9) (xy 148.59 88.9)
+			(xy 134.62 88.9) (xy 142.24 88.9)
 		)
 		(stroke
 			(width 0)
@@ -516,13 +506,13 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 88.9) (xy 91.44 88.9)
+			(xy 142.24 88.9) (xy 148.59 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b78babe9-0a5b-47ad-812c-a900d4b5f5d7")
+		(uuid "aa19068a-6a5c-453e-9215-2e345ceb99ca")
 	)
 	(wire
 		(pts
@@ -533,6 +523,16 @@
 			(type default)
 		)
 		(uuid "bbf30035-4531-4464-b21a-b86dedb4c1e7")
+	)
+	(wire
+		(pts
+			(xy 85.09 88.9) (xy 91.44 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddbe83d5-3680-4968-85c8-0a84fb30af61")
 	)
 	(global_label "SensorAFilt"
 		(shape output)
@@ -711,211 +711,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 130.81 60.96 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "006dbcea-ff0a-442c-9543-73db74a721d8")
-		(property "Reference" "R14"
-			(at 130.81 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DNP"
-			(at 130.81 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 130.81 62.738 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 130.81 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 130.81 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "79a30a8e-41db-4f07-aa0b-d24521d1288b")
-		)
-		(pin "2"
-			(uuid "bff69be7-27f1-4165-9a8f-8018abfd2928")
-		)
-		(instances
-			(project "MotorDriver2"
-				(path "/6e0510ec-6dbc-4bc1-a315-3680b1127a92/926881a1-c2b6-481c-8aad-58e7a2acf224"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 142.24 92.71 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "07be4306-5499-4a5b-9aaf-b5dd5579e93f")
-		(property "Reference" "C23"
-			(at 135.89 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "DNP"
-			(at 132.588 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 141.2748 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 142.24 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4cb424b4-4f12-4217-9b4e-5816137aacdd")
-		)
-		(pin "2"
-			(uuid "d0718083-d619-4fe2-aa65-deec39588566")
-		)
-		(instances
-			(project "MotorDriver2"
-				(path "/6e0510ec-6dbc-4bc1-a315-3680b1127a92/926881a1-c2b6-481c-8aad-58e7a2acf224"
-					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 73.66 88.9 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0b5e6221-aaeb-4e38-897b-222170b25f5e")
-		(property "Reference" "R24"
-			(at 73.66 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DNP"
-			(at 73.66 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 73.66 90.678 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 73.66 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 73.66 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f2fc5534-9423-422f-8fc3-19de504988fe")
-		)
-		(pin "2"
-			(uuid "da866288-917d-4b29-8dd7-18bc7106b4ed")
-		)
-		(instances
-			(project "MotorDriver2"
-				(path "/6e0510ec-6dbc-4bc1-a315-3680b1127a92/926881a1-c2b6-481c-8aad-58e7a2acf224"
-					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 85.09 68.58 0)
 		(unit 1)
@@ -990,8 +785,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5f01d246-cf14-464e-ba96-94587f93e929")
-		(property "Reference" "R25"
+		(uuid "209df380-794a-44fc-8f8f-c389cdcb626a")
+		(property "Reference" "R24"
 			(at 130.81 82.55 90)
 			(effects
 				(font
@@ -999,7 +794,7 @@
 				)
 			)
 		)
-		(property "Value" "DNP"
+		(property "Value" "20k"
 			(at 130.81 85.09 90)
 			(effects
 				(font
@@ -1035,15 +830,152 @@
 			)
 		)
 		(pin "1"
-			(uuid "a6d7992e-dd2a-4e33-9e05-b1960f05368d")
+			(uuid "040ccaf8-99ef-491d-899f-1b34c289ed33")
 		)
 		(pin "2"
-			(uuid "08de0b04-1f0a-4c09-b88a-98716e036233")
+			(uuid "7b70af42-6ef8-4a2a-9c9c-33de7f24cbaa")
 		)
 		(instances
 			(project "MotorDriver2"
 				(path "/6e0510ec-6dbc-4bc1-a315-3680b1127a92/926881a1-c2b6-481c-8aad-58e7a2acf224"
-					(reference "R25")
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 142.24 64.77 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3fb075c4-5ac6-471c-ba9e-d250d919a8b7")
+		(property "Reference" "C21"
+			(at 135.89 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100 nF"
+			(at 132.588 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 141.2748 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 142.24 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2147a04-f540-4452-9d17-76586939ad86")
+		)
+		(pin "2"
+			(uuid "192fe72b-1311-4234-b9f2-87912edbdcab")
+		)
+		(instances
+			(project "MotorDriver2"
+				(path "/6e0510ec-6dbc-4bc1-a315-3680b1127a92/926881a1-c2b6-481c-8aad-58e7a2acf224"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 130.81 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "671a0592-18dc-4f03-a82b-0a92983e44e1")
+		(property "Reference" "R14"
+			(at 130.81 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20k"
+			(at 130.81 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 130.81 62.738 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 130.81 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ec596eb-00c1-4c65-ab37-1a9287e36a8e")
+		)
+		(pin "2"
+			(uuid "61a24d70-b8e9-4d5b-b3f7-4815162f798f")
+		)
+		(instances
+			(project "MotorDriver2"
+				(path "/6e0510ec-6dbc-4bc1-a315-3680b1127a92/926881a1-c2b6-481c-8aad-58e7a2acf224"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -1067,7 +999,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "DNP"
+		(property "Value" "100 nF"
 			(at 75.438 66.04 0)
 			(effects
 				(font
@@ -1185,34 +1117,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 85.09 92.71 180)
+		(lib_id "Device:R")
+		(at 73.66 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "afafcdf5-7d82-4c7a-bdb5-a2a038b75bb3")
-		(property "Reference" "C22"
-			(at 78.74 91.4399 0)
+		(fields_autoplaced yes)
+		(uuid "b458279a-3a21-447d-a18d-a18d04abe41b")
+		(property "Reference" "R25"
+			(at 73.66 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "DNP"
-			(at 75.438 93.98 0)
+		(property "Value" "20k"
+			(at 73.66 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 84.1248 88.9 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 73.66 90.678 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1221,7 +1152,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 92.71 0)
+			(at 73.66 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1229,8 +1160,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 85.09 92.71 0)
+		(property "Description" "Resistor"
+			(at 73.66 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1239,15 +1170,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "3cbe41ab-4f4a-45aa-87d8-d74a90930b0a")
+			(uuid "f505aadb-5a16-483d-b1d6-e2e8b7e7a225")
 		)
 		(pin "2"
-			(uuid "46507429-201a-4327-865a-cf8f887a8753")
+			(uuid "ee80b1a1-6971-48b8-a706-9506969b6887")
 		)
 		(instances
 			(project "MotorDriver2"
 				(path "/6e0510ec-6dbc-4bc1-a315-3680b1127a92/926881a1-c2b6-481c-8aad-58e7a2acf224"
-					(reference "C22")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -1271,7 +1202,7 @@
 				)
 			)
 		)
-		(property "Value" "DNP"
+		(property "Value" "20k"
 			(at 73.66 57.15 90)
 			(effects
 				(font
@@ -1388,6 +1319,144 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 142.24 92.71 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4b40878-6cda-4fcd-a0ec-256100996d94")
+		(property "Reference" "C22"
+			(at 135.89 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100 nF"
+			(at 132.588 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 141.2748 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 142.24 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a10f88cc-4cbd-420e-8a19-bcb1803cf5f1")
+		)
+		(pin "2"
+			(uuid "8dcc0bd6-1012-42bf-bbfc-3ebaf0d56e40")
+		)
+		(instances
+			(project "MotorDriver2"
+				(path "/6e0510ec-6dbc-4bc1-a315-3680b1127a92/926881a1-c2b6-481c-8aad-58e7a2acf224"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 85.09 92.71 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e7257f08-b117-4fc9-b019-86e55f45ed7e")
+		(property "Reference" "C23"
+			(at 78.74 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100 nF"
+			(at 75.438 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 84.1248 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 85.09 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44105e19-586e-4854-a197-dc856bd41e3a")
+		)
+		(pin "2"
+			(uuid "9d008c42-2c72-4558-bf8c-63085f4245f6")
+		)
+		(instances
+			(project "MotorDriver2"
+				(path "/6e0510ec-6dbc-4bc1-a315-3680b1127a92/926881a1-c2b6-481c-8aad-58e7a2acf224"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 142.24 96.52 0)
 		(unit 1)
@@ -1448,75 +1517,6 @@
 			(project "MotorDriver2"
 				(path "/6e0510ec-6dbc-4bc1-a315-3680b1127a92/926881a1-c2b6-481c-8aad-58e7a2acf224"
 					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 142.24 64.77 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fc168c03-fbf3-4701-b2fa-6e92a15f4408")
-		(property "Reference" "C21"
-			(at 135.89 63.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "DNP"
-			(at 132.588 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 141.2748 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 142.24 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bf66676a-c1f9-40a4-97d5-ee1f17b1e3f0")
-		)
-		(pin "2"
-			(uuid "c674b601-64d1-436c-a35f-459ad3f10f74")
-		)
-		(instances
-			(project "MotorDriver2"
-				(path "/6e0510ec-6dbc-4bc1-a315-3680b1127a92/926881a1-c2b6-481c-8aad-58e7a2acf224"
-					(reference "C21")
 					(unit 1)
 				)
 			)
