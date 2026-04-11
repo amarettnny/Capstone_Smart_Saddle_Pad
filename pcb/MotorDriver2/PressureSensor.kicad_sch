@@ -2563,7 +2563,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16ab20fe-801d-4add-8b82-d9b5daa3b898")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR025"
 			(at 60.96 111.76 0)
 			(effects
 				(font
@@ -2613,7 +2613,7 @@
 		(instances
 			(project "MotorDriver1"
 				(path "/6e0510ec-6dbc-4bc1-a315-3680b1127a92/84d965bc-7f0b-4bc5-931c-8ce848efd12b"
-					(reference "#PWR065")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -2635,7 +2635,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a6a6f52-471e-4bdc-9ce8-930d8a41b1b1")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR026"
 			(at 60.96 171.45 0)
 			(effects
 				(font
@@ -2685,7 +2685,7 @@
 		(instances
 			(project "MotorDriver1"
 				(path "/6e0510ec-6dbc-4bc1-a315-3680b1127a92/84d965bc-7f0b-4bc5-931c-8ce848efd12b"
-					(reference "#PWR042")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -2752,6 +2752,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25871"
+			(at 118.11 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dffe6138-0a5c-4b5a-95c0-f8e9f5418438")
 		)
@@ -2783,7 +2792,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f83a85b-ada0-4ced-9409-5e473a437dd2")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR029"
 			(at 185.42 40.64 0)
 			(effects
 				(font
@@ -2833,7 +2842,7 @@
 		(instances
 			(project "MotorDriver1"
 				(path "/6e0510ec-6dbc-4bc1-a315-3680b1127a92/84d965bc-7f0b-4bc5-931c-8ce848efd12b"
-					(reference "#PWR062")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -2855,7 +2864,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41f1335d-57f5-42a6-98ac-92a720f5de54")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR023"
 			(at 52.07 77.47 0)
 			(effects
 				(font
@@ -2905,7 +2914,7 @@
 		(instances
 			(project "MotorDriver1"
 				(path "/6e0510ec-6dbc-4bc1-a315-3680b1127a92/84d965bc-7f0b-4bc5-931c-8ce848efd12b"
-					(reference "#PWR064")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -3078,7 +3087,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b9b562d-c730-4ff0-b272-b413be3d5b8e")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR024"
 			(at 52.07 137.16 0)
 			(effects
 				(font
@@ -3128,7 +3137,7 @@
 		(instances
 			(project "MotorDriver1"
 				(path "/6e0510ec-6dbc-4bc1-a315-3680b1127a92/84d965bc-7f0b-4bc5-931c-8ce848efd12b"
-					(reference "#PWR041")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -3223,7 +3232,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6242de73-f399-4e83-975b-687ec489a8d4")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR028"
 			(at 118.11 49.53 0)
 			(effects
 				(font
@@ -3273,7 +3282,7 @@
 		(instances
 			(project "MotorDriver1"
 				(path "/6e0510ec-6dbc-4bc1-a315-3680b1127a92/84d965bc-7f0b-4bc5-931c-8ce848efd12b"
-					(reference "#PWR043")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -3295,7 +3304,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62534adf-24a6-40ce-8fca-1f2bc9385ff0")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR027"
 			(at 62.23 40.64 0)
 			(effects
 				(font
@@ -3345,7 +3354,7 @@
 		(instances
 			(project "MotorDriver1"
 				(path "/6e0510ec-6dbc-4bc1-a315-3680b1127a92/84d965bc-7f0b-4bc5-931c-8ce848efd12b"
-					(reference "#PWR040")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -3457,7 +3466,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprintLib:TS53YJ105MR10"
+		(property "Footprint" "CapstoneFootprints:TS53YJ105MR10"
 			(at 226.06 238.43 0)
 			(effects
 				(font
@@ -3570,7 +3579,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86b4d238-36bc-4168-924c-d10508432180")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR032"
 			(at 241.3 49.53 0)
 			(effects
 				(font
@@ -3620,7 +3629,7 @@
 		(instances
 			(project "MotorDriver1"
 				(path "/6e0510ec-6dbc-4bc1-a315-3680b1127a92/84d965bc-7f0b-4bc5-931c-8ce848efd12b"
-					(reference "#PWR063")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -3658,7 +3667,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprintLib:D14"
+		(property "Footprint" "CapstoneFootprints:D14"
 			(at 162.56 106.68 0)
 			(effects
 				(font
@@ -4021,6 +4030,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25871"
+			(at 60.96 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c2345bb5-565d-475c-9c1e-7559b2d9ce8c")
 		)
@@ -4244,6 +4262,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C77012"
+			(at 123.19 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "73018b2c-8136-4bf7-90c9-480c73006693")
 		)
@@ -4275,7 +4302,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1883a9c-7afa-43d1-987d-7723c5fb4fdf")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR031"
 			(at 215.9 114.3 0)
 			(effects
 				(font
@@ -4326,7 +4353,7 @@
 		(instances
 			(project ""
 				(path "/6e0510ec-6dbc-4bc1-a315-3680b1127a92/84d965bc-7f0b-4bc5-931c-8ce848efd12b"
-					(reference "#PWR044")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -4348,7 +4375,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2d1016d-4609-4db4-a113-3c18e94066cc")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR030"
 			(at 203.2 87.63 0)
 			(effects
 				(font
@@ -4398,7 +4425,7 @@
 		(instances
 			(project "MotorDriver1"
 				(path "/6e0510ec-6dbc-4bc1-a315-3680b1127a92/84d965bc-7f0b-4bc5-931c-8ce848efd12b"
-					(reference "#PWR0101")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -4662,7 +4689,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprintLib:TS53YJ105MR10"
+		(property "Footprint" "CapstoneFootprints:TS53YJ105MR10"
 			(at 231.14 197.79 0)
 			(effects
 				(font
@@ -4791,7 +4818,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprintLib:TS53YJ105MR10"
+		(property "Footprint" "CapstoneFootprints:TS53YJ105MR10"
 			(at 148.59 237.16 0)
 			(effects
 				(font
@@ -5070,7 +5097,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprintLib:TS53YJ105MR10"
+		(property "Footprint" "CapstoneFootprints:TS53YJ105MR10"
 			(at 133.35 197.79 0)
 			(effects
 				(font
