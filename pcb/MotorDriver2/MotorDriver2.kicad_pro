@@ -196,7 +196,7 @@
           "max_amplitude": 1.0,
           "min_amplitude": 0.2,
           "single_sided": false,
-          "spacing": 0.6
+          "spacing": 0.3
         },
         "single_track_defaults": {
           "corner_radius_percentage": 80,

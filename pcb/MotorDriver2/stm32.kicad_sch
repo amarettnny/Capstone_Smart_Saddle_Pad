@@ -2574,12 +2574,6 @@
 		(uuid "860a96fe-dea3-4b7e-a8c1-be2b741f36f9")
 	)
 	(junction
-		(at 129.54 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0e0f30dd-19b5-4238-9d84-b1684dc6a437")
-	)
-	(junction
 		(at 133.35 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2662,16 +2656,8 @@
 		(uuid "0b617b07-c1f1-46c7-bd3e-765f849c1eae")
 	)
 	(no_connect
-		(at 144.78 133.35)
-		(uuid "1471878a-5ec0-4155-996d-3f67ccf3c13f")
-	)
-	(no_connect
 		(at 132.08 64.77)
 		(uuid "1d54a4e8-bc74-44ca-94c2-013e85549757")
-	)
-	(no_connect
-		(at 139.7 133.35)
-		(uuid "205ab259-c5b7-4bd5-ba04-83eecf65596d")
 	)
 	(no_connect
 		(at 119.38 115.57)
@@ -2680,6 +2666,10 @@
 	(no_connect
 		(at 172.72 87.63)
 		(uuid "25f94913-98f6-4af5-8dbb-a19b8a0746f2")
+	)
+	(no_connect
+		(at 165.1 133.35)
+		(uuid "39181faf-f37f-44f1-b825-0822f5925b72")
 	)
 	(no_connect
 		(at 172.72 118.11)
@@ -2704,6 +2694,10 @@
 	(no_connect
 		(at 119.38 82.55)
 		(uuid "6087f3d3-2c86-4524-93f7-1d163e8257f0")
+	)
+	(no_connect
+		(at 154.94 133.35)
+		(uuid "6574739e-fec8-4457-958a-8c0f1de5f4f3")
 	)
 	(no_connect
 		(at 172.72 110.49)
@@ -2738,8 +2732,8 @@
 		(uuid "90d80d5c-0470-4932-be9a-61e20011458f")
 	)
 	(no_connect
-		(at 162.56 133.35)
-		(uuid "9ed06c5f-7a96-4411-aeef-f3071a497318")
+		(at 160.02 133.35)
+		(uuid "9193bd44-09d5-45d5-859c-5a8f025b49c6")
 	)
 	(no_connect
 		(at 139.7 64.77)
@@ -2774,16 +2768,16 @@
 		(uuid "c26041ab-a61d-4cf9-9bd5-1e8a7668c095")
 	)
 	(no_connect
+		(at 162.56 133.35)
+		(uuid "c4c55fc1-d7d9-4711-b2b5-e5e4195919be")
+	)
+	(no_connect
 		(at 172.72 115.57)
 		(uuid "c73ee447-da39-4cdd-bb48-4e5ed2ae703d")
 	)
 	(no_connect
 		(at 154.94 64.77)
 		(uuid "ccfb14de-862a-443e-8dd5-709fe3bc9512")
-	)
-	(no_connect
-		(at 142.24 133.35)
-		(uuid "cfc5e980-5768-454a-8d77-3763154ee185")
 	)
 	(no_connect
 		(at 24.13 171.45)
@@ -2867,16 +2861,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 177.8) (xy 129.54 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25942691-bd77-4f5d-8f83-3ed90dc658c5")
-	)
-	(wire
-		(pts
 			(xy 82.55 97.79) (xy 90.17 97.79)
 		)
 		(stroke
@@ -2927,16 +2911,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 172.72) (xy 129.54 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d982afe-b911-43ab-bf92-286fe03f9d74")
-	)
-	(wire
-		(pts
 			(xy 33.02 50.8) (xy 39.37 50.8)
 		)
 		(stroke
@@ -2977,7 +2951,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 177.8) (xy 133.35 177.8)
+			(xy 111.76 177.8) (xy 133.35 177.8)
 		)
 		(stroke
 			(width 0)
@@ -3405,28 +3379,6 @@
 		)
 		(uuid "ff1de43d-2563-4eed-a301-d3b6d5c06cad")
 	)
-	(global_label "SensorBFilt"
-		(shape input)
-		(at 154.94 133.35 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "015a7cb5-b08d-444c-ac6f-f3f13fde6c03")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.94 147.0999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Motor3a_PWM"
 		(shape input)
 		(at 124.46 36.83 180)
@@ -3440,28 +3392,6 @@
 		(uuid "0e2eb353-0b31-4b41-8473-4a2ba13af3dd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 108.7146 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SensorDFilt"
-		(shape input)
-		(at 165.1 133.35 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "16bcbf9e-7978-44e4-986f-f7b8117d5ef7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.1 147.0999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3581,9 +3511,9 @@
 			)
 		)
 	)
-	(global_label "SensorCFilt"
+	(global_label "SensorBFilt"
 		(shape input)
-		(at 160.02 133.35 270)
+		(at 139.7 133.35 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3591,9 +3521,9 @@
 			)
 			(justify right)
 		)
-		(uuid "586424eb-2ca8-4884-a4e0-84a96cb082ae")
+		(uuid "56f411cb-b373-4c24-a63e-2307298f9d02")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.02 147.0999 90)
+			(at 139.7 147.0999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3616,28 +3546,6 @@
 		(uuid "69e7d700-f7a4-46e9-a8fa-9ba258550816")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 108.7146 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "!DTR"
-		(shape input)
-		(at 121.92 172.72 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6f146ece-812e-4801-a304-d4e43d8d1e08")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.8224 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3858,6 +3766,50 @@
 		(uuid "b89e564e-e17b-4bc6-b6d6-64b9f0f453a9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 137.16 146.9185 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SensorCFilt"
+		(shape input)
+		(at 142.24 133.35 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c0e8f3cc-fa57-46f3-8b64-e5743c331e58")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.24 147.0999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SensorDFilt"
+		(shape input)
+		(at 144.78 133.35 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c2fe094a-9f95-496f-a242-b8f2f5dc93af")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.78 147.0999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6834,80 +6786,6 @@
 			(project "MotorDriver1"
 				(path "/79cc9cfe-04d6-4d00-aa84-feae66cf8c45/d5cdf697-4d49-4f45-b387-9e9064a8239b"
 					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 125.73 172.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e8048397-5c39-4c89-a6ed-7659cb84d732")
-		(property "Reference" "R10"
-			(at 125.73 166.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DNP"
-			(at 125.73 168.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 125.73 174.498 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 125.73 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 125.73 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1099eb78-f000-476d-bdff-fed9d36f67fe")
-		)
-		(pin "2"
-			(uuid "fdf19b96-7051-4692-89b4-9d44c040ec71")
-		)
-		(instances
-			(project "MotorDriver1"
-				(path "/6e0510ec-6dbc-4bc1-a315-3680b1127a92/06299a0e-39a9-4081-8894-5693d9896b0f"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-			(project "MotorDriver1"
-				(path "/79cc9cfe-04d6-4d00-aa84-feae66cf8c45/d5cdf697-4d49-4f45-b387-9e9064a8239b"
-					(reference "R10")
 					(unit 1)
 				)
 			)
