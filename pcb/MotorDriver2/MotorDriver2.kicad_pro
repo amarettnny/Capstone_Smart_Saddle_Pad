@@ -803,6 +803,10 @@
     [
       "3247411b-d198-4d8e-83c0-cfd1101ef780",
       "digiControls"
+    ],
+    [
+      "4a37fed3-a507-4572-af74-3447584957a4",
+      "STLink Connector"
     ]
   ],
   "text_variables": {}
