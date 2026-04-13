@@ -1101,7 +1101,7 @@
 			)
 		)
 		(instances
-			(project "MotorDriver2"
+			(project "motorDriver2"
 				(path "/6e0510ec-6dbc-4bc1-a315-3680b1127a92"
 					(page "6")
 				)
@@ -1143,9 +1143,51 @@
 			)
 		)
 		(instances
-			(project "MotorDriver2"
+			(project "motorDriver2"
 				(path "/6e0510ec-6dbc-4bc1-a315-3680b1127a92"
 					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 31.75 73.66)
+		(size 34.29 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4a37fed3-a507-4572-af74-3447584957a4")
+		(property "Sheetname" "STLink Connector"
+			(at 31.75 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "STLink_Connector.kicad_sch"
+			(at 31.75 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "motorDriver2"
+				(path "/6e0510ec-6dbc-4bc1-a315-3680b1127a92"
+					(page "8")
 				)
 			)
 		)
@@ -1185,7 +1227,7 @@
 			)
 		)
 		(instances
-			(project "MotorDriver2"
+			(project "motorDriver2"
 				(path "/6e0510ec-6dbc-4bc1-a315-3680b1127a92"
 					(page "4")
 				)
@@ -1227,7 +1269,7 @@
 			)
 		)
 		(instances
-			(project "MotorDriver2"
+			(project "motorDriver2"
 				(path "/6e0510ec-6dbc-4bc1-a315-3680b1127a92"
 					(page "5")
 				)
@@ -1269,7 +1311,7 @@
 			)
 		)
 		(instances
-			(project "MotorDriver2"
+			(project "motorDriver2"
 				(path "/6e0510ec-6dbc-4bc1-a315-3680b1127a92"
 					(page "3")
 				)
@@ -1311,7 +1353,7 @@
 			)
 		)
 		(instances
-			(project "MotorDriver2"
+			(project "motorDriver2"
 				(path "/6e0510ec-6dbc-4bc1-a315-3680b1127a92"
 					(page "2")
 				)

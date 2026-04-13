@@ -2610,6 +2610,12 @@
 		(uuid "5c4ed84d-70b2-42a7-b42d-f8882220cad5")
 	)
 	(junction
+		(at 184.15 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7008e2aa-727d-4db2-8715-5276057f17e6")
+	)
+	(junction
 		(at 35.56 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2861,6 +2867,26 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 81.28) (xy 184.15 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "252ec3ae-bdfc-42c9-9f5f-75e0a2a3b88b")
+	)
+	(wire
+		(pts
+			(xy 172.72 85.09) (xy 184.15 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29460e4c-a52c-4251-976e-036d59d760d4")
+	)
+	(wire
+		(pts
 			(xy 82.55 97.79) (xy 90.17 97.79)
 		)
 		(stroke
@@ -2908,6 +2934,16 @@
 			(type default)
 		)
 		(uuid "45e10655-cc80-4429-b461-cd89870bee60")
+	)
+	(wire
+		(pts
+			(xy 184.15 81.28) (xy 184.15 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46b8dc87-e05e-449b-b746-18f7b790cdbf")
 	)
 	(wire
 		(pts
@@ -2998,6 +3034,16 @@
 			(type default)
 		)
 		(uuid "9ba42b87-bead-43a8-8dfa-605d55cab30b")
+	)
+	(wire
+		(pts
+			(xy 184.15 85.09) (xy 187.96 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a30b2d35-7a7a-4a4c-9e81-dc6288e90278")
 	)
 	(wire
 		(pts
@@ -3401,6 +3447,28 @@
 			)
 		)
 	)
+	(global_label "SWCLK"
+		(shape input)
+		(at 187.96 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1bfe297f-b340-4c64-bf14-77d43bc67e8a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 197.1742 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "3V3"
 		(shape input)
 		(at 77.47 97.79 180)
@@ -3533,6 +3601,28 @@
 			)
 		)
 	)
+	(global_label "SWDIO"
+		(shape bidirectional)
+		(at 172.72 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "64b90aca-9f31-42ed-b4be-5cc8ecb7d1e8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.6827 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Motor1b_PWM"
 		(shape input)
 		(at 124.46 29.21 180)
@@ -3579,7 +3669,7 @@
 	)
 	(global_label "BOOT"
 		(shape input)
-		(at 172.72 85.09 0)
+		(at 187.96 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3589,7 +3679,7 @@
 		)
 		(uuid "815a4948-f546-473f-9694-8734200dad59")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.6038 85.09 0)
+			(at 195.8438 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4069,6 +4159,12 @@
 					(unit 1)
 				)
 			)
+			(project "stm32"
+				(path "/85f32bc1-9169-480e-a658-3b951d4944e0"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4229,6 +4325,12 @@
 			(project "MotorDriver1"
 				(path "/79cc9cfe-04d6-4d00-aa84-feae66cf8c45/d5cdf697-4d49-4f45-b387-9e9064a8239b"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+			(project "stm32"
+				(path "/85f32bc1-9169-480e-a658-3b951d4944e0"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -4400,6 +4502,12 @@
 			(project "MotorDriver1"
 				(path "/79cc9cfe-04d6-4d00-aa84-feae66cf8c45/d5cdf697-4d49-4f45-b387-9e9064a8239b"
 					(reference "SW3")
+					(unit 1)
+				)
+			)
+			(project "stm32"
+				(path "/85f32bc1-9169-480e-a658-3b951d4944e0"
+					(reference "SW?")
 					(unit 1)
 				)
 			)
@@ -4745,6 +4853,12 @@
 					(unit 1)
 				)
 			)
+			(project "stm32"
+				(path "/85f32bc1-9169-480e-a658-3b951d4944e0"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4906,6 +5020,12 @@
 					(unit 1)
 				)
 			)
+			(project "stm32"
+				(path "/85f32bc1-9169-480e-a658-3b951d4944e0"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4975,6 +5095,12 @@
 			(project "MotorDriver1"
 				(path "/79cc9cfe-04d6-4d00-aa84-feae66cf8c45/d5cdf697-4d49-4f45-b387-9e9064a8239b"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+			(project "stm32"
+				(path "/85f32bc1-9169-480e-a658-3b951d4944e0"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -5119,6 +5245,12 @@
 			(project "MotorDriver2"
 				(path "/6e0510ec-6dbc-4bc1-a315-3680b1127a92/06299a0e-39a9-4081-8894-5693d9896b0f"
 					(reference "TP2")
+					(unit 1)
+				)
+			)
+			(project "stm32"
+				(path "/85f32bc1-9169-480e-a658-3b951d4944e0"
+					(reference "TP?")
 					(unit 1)
 				)
 			)
@@ -6031,6 +6163,12 @@
 					(unit 1)
 				)
 			)
+			(project "stm32"
+				(path "/85f32bc1-9169-480e-a658-3b951d4944e0"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6103,6 +6241,12 @@
 					(unit 1)
 				)
 			)
+			(project "stm32"
+				(path "/85f32bc1-9169-480e-a658-3b951d4944e0"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6167,6 +6311,12 @@
 			(project "MotorDriver2"
 				(path "/6e0510ec-6dbc-4bc1-a315-3680b1127a92/06299a0e-39a9-4081-8894-5693d9896b0f"
 					(reference "TP3")
+					(unit 1)
+				)
+			)
+			(project "stm32"
+				(path "/85f32bc1-9169-480e-a658-3b951d4944e0"
+					(reference "TP?")
 					(unit 1)
 				)
 			)
@@ -6581,7 +6731,7 @@
 		(dnp no)
 		(uuid "e155eb23-476d-4071-9fa1-d7aef8d56016")
 		(property "Reference" "TP1"
-			(at 185.42 85.5979 0)
+			(at 195.58 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6590,7 +6740,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 184.658 87.63 0)
+			(at 193.04 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6632,6 +6782,12 @@
 			(project ""
 				(path "/6e0510ec-6dbc-4bc1-a315-3680b1127a92/06299a0e-39a9-4081-8894-5693d9896b0f"
 					(reference "TP1")
+					(unit 1)
+				)
+			)
+			(project "stm32"
+				(path "/85f32bc1-9169-480e-a658-3b951d4944e0"
+					(reference "TP?")
 					(unit 1)
 				)
 			)
@@ -6786,6 +6942,12 @@
 			(project "MotorDriver1"
 				(path "/79cc9cfe-04d6-4d00-aa84-feae66cf8c45/d5cdf697-4d49-4f45-b387-9e9064a8239b"
 					(reference "D6")
+					(unit 1)
+				)
+			)
+			(project "stm32"
+				(path "/85f32bc1-9169-480e-a658-3b951d4944e0"
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -6947,4 +7109,10 @@
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
