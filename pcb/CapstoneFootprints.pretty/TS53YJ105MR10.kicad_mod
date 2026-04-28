@@ -1,40 +1,290 @@
-(module "TS53YJ105MR10" (layer F.Cu)
-  (descr "TS53YJ105MR10-1")
-  (tags "Variable Resistor")
-  (attr smd)
-  (fp_text reference VR** (at 0.000 -0) (layer F.SilkS)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text user %R (at 0.000 -0) (layer F.Fab)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text value "TS53YJ105MR10" (at 0.000 -0) (layer F.SilkS) hide
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_line (start -2.5 -2.5) (end 2.5 -2.5) (layer F.Fab) (width 0.1))
-  (fp_line (start 2.5 -2.5) (end 2.5 2.5) (layer F.Fab) (width 0.1))
-  (fp_line (start 2.5 2.5) (end -2.5 2.5) (layer F.Fab) (width 0.1))
-  (fp_line (start -2.5 2.5) (end -2.5 -2.5) (layer F.Fab) (width 0.1))
-  (fp_line (start -3.5 -4) (end 3.5 -4) (layer F.CrtYd) (width 0.1))
-  (fp_line (start 3.5 -4) (end 3.5 4) (layer F.CrtYd) (width 0.1))
-  (fp_line (start 3.5 4) (end -3.5 4) (layer F.CrtYd) (width 0.1))
-  (fp_line (start -3.5 4) (end -3.5 -4) (layer F.CrtYd) (width 0.1))
-  (fp_line (start 1.4 -2.5) (end 2.5 -2.5) (layer F.SilkS) (width 0.2))
-  (fp_line (start 2.5 -2.5) (end 2.5 2.5) (layer F.SilkS) (width 0.2))
-  (fp_line (start 2.5 2.5) (end 2.2 2.5) (layer F.SilkS) (width 0.2))
-  (fp_line (start -1.4 -2.5) (end -2.5 -2.5) (layer F.SilkS) (width 0.2))
-  (fp_line (start -2.5 -2.5) (end -2.5 2.5) (layer F.SilkS) (width 0.2))
-  (fp_line (start -2.5 2.5) (end -2.2 2.5) (layer F.SilkS) (width 0.2))
-  (fp_line (start 1.15 3.4) (end 1.15 3.4) (layer F.SilkS) (width 0.1))
-  (fp_line (start 1.15 3.5) (end 1.15 3.5) (layer F.SilkS) (width 0.1))
-  (fp_arc (start 1.15 3.45) (end 1.150 3.4) (angle -180) (layer F.SilkS) (width 0.1))
-  (fp_arc (start 1.15 3.45) (end 1.150 3.5) (angle -180) (layer F.SilkS) (width 0.1))
-  (pad A1 smd rect (at 1.150 2 0) (size 1.300 2.000) (layers F.Cu F.Paste F.Mask))
-  (pad B1 smd rect (at 0.000 -2 0) (size 2.000 2.000) (layers F.Cu F.Paste F.Mask))
-  (pad C1 smd rect (at -1.150 2 0) (size 1.300 2.000) (layers F.Cu F.Paste F.Mask))
-  (model TS53YJ105MR10.stp
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "TS53YJ105MR10"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "TS53YJ105MR10-1")
+	(tags "Variable Resistor")
+	(property "Reference" "VR**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "a08f884d-2a96-41ea-8765-0ef9cb5dda57")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "TS53YJ105MR10"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7a43042e-76e8-41b0-93d7-1a0ba33660e3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "21f7f469-e792-497d-9b37-fec68ba5456e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c7c7b7b0-485a-44ee-85a3-ac6af4028c60")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.5 -2.5)
+		(end -2.5 2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6a6a812c-be13-4131-9242-58baf671a6e5")
+	)
+	(fp_line
+		(start -2.5 2.5)
+		(end -2.2 2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "56ac9c9d-dc3b-4904-a25c-8bb2ca3a5a2c")
+	)
+	(fp_line
+		(start -1.4 -2.5)
+		(end -2.5 -2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bd13fc59-9657-4ad1-916a-b82b982dfd92")
+	)
+	(fp_line
+		(start 1.15 3.4)
+		(end 1.15 3.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "187757a6-529a-43b7-808a-57c06fa7e158")
+	)
+	(fp_line
+		(start 1.15 3.5)
+		(end 1.15 3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0386f8a4-400c-4214-a499-d36f9a320f19")
+	)
+	(fp_line
+		(start 1.4 -2.5)
+		(end 2.5 -2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3c415150-8d90-451c-9211-0f8f9c597d23")
+	)
+	(fp_line
+		(start 2.5 -2.5)
+		(end 2.5 2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "185c0fce-5133-4d3f-9d27-dd29624406ae")
+	)
+	(fp_line
+		(start 2.5 2.5)
+		(end 2.2 2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "13ac23e4-35f8-4201-853d-84126d6bd21e")
+	)
+	(fp_arc
+		(start 1.15 3.4)
+		(mid 1.2 3.45)
+		(end 1.15 3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9df96a23-e193-4b7b-b4c7-059b2aee7897")
+	)
+	(fp_arc
+		(start 1.15 3.5)
+		(mid 1.1 3.45)
+		(end 1.15 3.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e34fe41b-9d0d-413d-b6e5-3cfb5494fcbd")
+	)
+	(fp_line
+		(start -3.5 -4)
+		(end 3.5 -4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8f3eb178-42f9-4d97-aab0-570e9603a331")
+	)
+	(fp_line
+		(start -3.5 4)
+		(end -3.5 -4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b3207f98-1c5e-4e43-aac5-954c8a9b799d")
+	)
+	(fp_line
+		(start 3.5 -4)
+		(end 3.5 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "733b9a92-6d0b-4e91-b29b-b2281bde38b0")
+	)
+	(fp_line
+		(start 3.5 4)
+		(end -3.5 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "10817ebd-113d-486b-8459-073ff0174332")
+	)
+	(fp_line
+		(start -2.5 -2.5)
+		(end 2.5 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "822aebf2-b43f-47fb-bb27-b0a79fc765ec")
+	)
+	(fp_line
+		(start -2.5 2.5)
+		(end -2.5 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7e1b1d63-5bd5-4e87-bbdb-db7d03c04ed8")
+	)
+	(fp_line
+		(start 2.5 -2.5)
+		(end 2.5 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9381eea0-f0c2-49a8-b5cc-de260c67e0e9")
+	)
+	(fp_line
+		(start 2.5 2.5)
+		(end -2.5 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "78e05514-fa0e-4ef3-ae98-ea559d66828d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "9539f206-595c-4b45-b6be-a14081c4200e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "A1" smd rect
+		(at 1.15 2)
+		(size 1.3 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d9dc263e-f2d4-4795-aa1a-d1d54f0682b4")
+	)
+	(pad "B1" smd rect
+		(at 0 -2)
+		(size 2 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "71abb55d-d944-4df1-b40c-29c063b60a05")
+	)
+	(pad "C1" smd rect
+		(at -1.15 2)
+		(size 1.3 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5354617d-cba2-4043-81b5-c9cdf49f8086")
+	)
+	(embedded_fonts no)
+	(model "TS53YJ105MR10.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${CAPSTONE}/pcb/3D_models/TS53YJ105MR10.stp"
+		(offset
+			(xyz 0.25 0.5 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -180 80)
+		)
+	)
 )
